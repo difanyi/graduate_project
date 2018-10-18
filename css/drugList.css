@@ -1,0 +1,426 @@
+input{
+    padding: 0;
+}
+/*药品列表样式*/
+.select-arrow{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 35px;
+	background: url(../../images/arrow.jpg) no-repeat 8px center #fff;
+	z-index: 99;
+}
+.header{
+	width: 100%;
+    margin:0 auto;
+	height: 49px;
+	color: #1a1a1a;
+	font-size: 14px;
+	line-height: 49px;
+	border-bottom: 1px solid #dfdfdf;
+	position: relative;
+	min-width: 1050px;
+}
+.header-save-success{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 468px;
+	width: 200px;
+	height: 30px;
+	background: #6fcc47;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+	border-radius: 15px;
+	text-align: center;
+	overflow: hidden;
+}
+.header-success-mark {
+    height:26px;
+    padding:0 14px;
+    background: url("../../images/error_success.png") no-repeat center center;
+}
+.header-drugname{
+	width: 9.56%;
+	height: 35px;
+	margin: 6px 0.7% 0 0.5%;
+	/*border: 1px solid #dfdfdf;*/
+}
+.header-custom{
+	width: 5.56%;
+	height: 35px;
+	margin: 6px 6px 0 0.5%;
+	/*border: 1px solid #dfdfdf;*/
+}
+.header-custom input{
+	display: block;
+	width: 100%;
+	height: 35px;
+	text-indent: 7px;
+	line-height: 35px;
+	outline: none;
+}
+.header-drugname input{
+	display: block;
+	width: 100%;
+	height: 35px;
+	text-indent: 7px;
+	line-height: 35px;
+	outline: none;
+}
+.header-drugtype{
+	width: 5.4%;
+	height: 35px;
+	margin: 6px 0.7% 0 0.5%;
+	position: relative;
+	float: left;
+}
+.ui-select-input{
+	line-height: 35px;
+}
+.header-drugstatus{
+	width: 3.8%;
+	height: 35px;
+	margin: 6px 0.7% 0 0.5%;
+	/*border: 1px solid #dfdfdf;*/
+	position: relative;
+	float: left;
+}
+.header-search,.header-drugadd{
+	display: block;
+	width: 88px;
+	height: 30px;
+	margin-top: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #3e78ba;
+	line-height: 30px;
+	text-align: center;
+	background: url(../../images/short-btn-bg.jpg);
+}
+.header-drugadd{
+	margin-right: 0.5%;
+}
+.header-upload{
+	display: block;
+	width: 88px;
+	height: 30px;
+	margin: 10px 0.77% 0 0 ;
+	line-height: 30px;
+	text-align: center;
+	color: #3e78ba;
+	overflow: hidden;
+	position: relative;
+	/*cursor: pointer;*/
+	background: url(../../images/short-btn-bg.jpg);
+}
+.header-upload input{
+    width: 104px;
+    height:30px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-indent: 100px;
+	opacity: 0;
+	filter: alpha(opacity:0);
+	cursor: pointer;
+}
+.header-download{
+	display: block;
+	width: 88px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	color: #3e78ba;
+	text-align: center;
+	background: url(../../images/short-btn-bg.jpg);
+}
+.header-search:active,.header-drugadd:active,.header-upload:active,.header-download:active{
+    color: #fff;
+    background: url(../../images/short-btn-bg.jpg) no-repeat center bottom;
+}
+.batch-set{
+    width:104px;
+    margin: 10px 0.77% 0 0;
+    cursor: pointer;
+    background: url(../../images/fixsearch-long-btn.png);
+}
+
+.main{
+	width: 100%;
+    margin-top: 73px;
+}
+.main-nodrug,.main-notfound{
+	margin: 73px 0 0 30px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #757575;
+}
+.main-druglist{
+	font-size: 14px;
+}
+.main-table-tbody{
+	color: #383838;
+}
+.main-nodrug a{
+	color: #3d77b9;
+}
+/*sub层样式*/
+.sub-wrap{
+	position: relative;
+}
+.sug-ul-dom{
+	position: absolute;
+	left: 0;
+	z-index: 999;
+	background: #fff;
+	cursor: pointer;
+}
+.sug-ul-dom li{
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #383838;
+	overflow: hidden;
+}
+.sub-con-item{
+	margin-right: 10px;
+}
+.s-hover, .sub-wrap li:hover{
+	background: #f5f5f5;
+}
+/*列表页表格样式*/
+.table-list{
+    table-layout:fixed;
+}
+.main-druglist .long-width{
+	max-width: 200px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.main-druglist .short-width{
+	min-width: 90px;
+	color: #3d77b9;
+}
+.main-druglist .little-width{
+	max-width: 100px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.main-druglist .table-title{
+	min-width: 80px;
+}
+/*导入样品样式dialog*/
+.cloudClinic-drugUpload{
+	width: 92.8%;
+	padding: 0 3.6%;
+	min-width: 1030px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 101;
+	display: none;
+}
+.cloudClinic-drugUpload .header{
+	width: 100%;
+	height: 49px;
+	color: #1a1a1a;
+	line-height: 49px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.cloudClinic-drugUpload .header-title{
+	font-size: 20px;
+	margin-left: 15px;
+	font-weight: bold;
+}
+.cloudClinic-drugUpload .header-backbtn{
+	display: block;
+	width: 88px;
+	height: 30px;
+	margin: 10px 0 0 40px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #3e78ba;
+	text-align: center;
+	background: url(../../images/short-btn-bg.jpg);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.cloudClinic-drugUpload .main{
+	width: 100%;
+}
+.cloudClinic-drugUpload .main-title{
+	margin-top: 30px;
+	color: #1a1a1a;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.cloudClinic-drugUpload .main-title .success-num{
+	font-weight: bold;
+}
+.cloudClinic-drugUpload .main-title .fail-num{
+	font-weight: bold;
+	color: #fc4a36;
+}
+.cloudClinic-drugUpload .download-btn{
+	color: #3d77b9;
+	margin-left: 34px;
+	display: none;
+}
+.cloudClinic-drugUpload .main-result{
+	width: 100%;
+}
+.cloudClinic-drugUpload .main-result-title{
+	height: 20px;
+	margin-top: 26px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #1a1a1a;
+}
+.cloudClinic-drugUpload .main-result-table{
+	margin-top: 21px;
+	font-size: 14px;
+}
+.cloudClinic-drugUpload .success-showall{
+	color: #3d77b9;
+}
+/*上传文件loading样式*/
+.yd-overlay-main{
+	padding: 0 26px 0 30px;
+}
+.yd-overlay-main .uploading-title{
+	width: 493px;
+	height: 62px;
+	border-bottom: 1px solid #dfdfdf;
+	line-height: 66px;
+	font-size: 20px;
+	color: #1a1a1a;
+}
+.yd-overlay-main .uploading-content{
+	height: 32px;
+	margin: 78px 0 0 92px;
+	line-height: 32px;
+	font-size: 16px;
+	color: #757575;
+}
+.yd-overlay-main .loading-icon{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
+	background: url(../../images/uplaod-icon.gif);
+}
+.yd-overlay-main .uploading-content .cancel{
+	margin-left: 20px;
+	color: #3d77b9;
+	cursor: pointer;
+}
+/*浮动、隐藏样式*/
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.hide{
+	display: none;
+}
+/* zh新增6.1 */
+.select-icon{
+    display: inline-block;
+    width:17px;
+    height:17px;
+    background: url("../../images/check.png") no-repeat center center;
+    vertical-align: text-top;
+    margin-right:5px;
+    cursor: pointer;
+}
+.select-cur{
+    background: url("../../images/checked.png") no-repeat center center;
+}
+.noUseBatchs,button.noUseBatchs{
+	display: none;
+}
+.please-wait{
+    height:48px;
+    line-height: 48px;
+    border: none;
+}
+.header-drugname .sug-ul-dom {
+    max-height:200px;
+}
+.classify{
+    max-width:110px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.batchNo{
+    max-width:140px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.show-more{
+    cursor: pointer;
+    margin: 0 5px;
+    padding-right:15px;
+    float: left;
+    height:49px;
+    line-height: 49px;
+    color:#3d77b9;
+    font-size: 14px;
+    background: url('../../images/arrow-up.png') no-repeat right center;
+}
+.show-more.arrow-down{
+    background: url('../../images/arrow-down.png') no-repeat right center;
+}
+.header-item-input{
+    height: 32px;
+}
+.second-line{
+    display: none;
+    height:49px;
+    line-height: 49px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.header-name-input {
+    width: 100%;
+    height: 32px;
+    text-indent: 7px;
+    border: 1px solid #dfdfdf;
+    padding: 0;
+}
+.header-name-wrap {
+    margin-right: 2.7%;
+    float: left;
+    width: 10%;
+    height: 34px;
+}
+.header-name-wrap .sug-ul-dom{
+    max-height:300px;
+}
+.header-name-wrap .sug-ul-dom li{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+    width:100%
+}
+.transtion-floor{margin-top:99px;transition: all .5s;  -moz-transition: all .5s; /* Firefox 4 */  -webkit-transition: all .5s; /* Safari 和 Chrome */ -o-transition: all .5s; /* Opera */}

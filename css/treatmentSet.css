@@ -1,0 +1,113 @@
+.cloudClinic-treatmentSet{
+    font-family: "Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+.treatmentSet-new{
+    font-size: 14px;
+}
+.treatment-list{
+    margin-top:73px;
+}
+.treatment-list .edit-exam{
+    margin-right:15px;
+}
+.treatment-list .edit-exam:after{
+    content: '|';
+    padding-left:15px;
+    color:#3d77b9;
+}
+.treatmentSet-top{
+    height:51px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.top-main{
+    padding:10px 0;
+    border-bottom: 1px solid #ccc;
+    background: #FFF;
+}
+
+.treatmentSet-new{
+    font-weight: normal;
+}
+.treatment-overlay{
+    width:100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.treatment-overlay p{
+    display: block;
+    line-height: 40px;
+    margin:0 0 24px 0;
+}
+.treatment-overlay label{
+    display: inline-block;
+    width:24%;
+    height:34px;
+    line-height: 34px;
+    font-size: 14px;
+    float: left;
+    text-align: right;
+}
+.treatment-overlay input{
+    display: inline-block;
+    width:37%;
+    height:32px;
+    line-height: 32px;
+    border: 1px solid #dfdfdf;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #777;
+    float: left;
+}
+.treatment-overlay .error-text{
+    display: inline-block;
+    font-style: normal;
+    width: 35%;
+    height:34px;
+    line-height: 34px;
+    text-align: left;
+}
+.treatment-overlay .overlay-error,.treatment-overlay .error-text{
+    color:red;
+    font-size: 12px;
+}
+
+/*重置overlay样式*/
+.yd-dialog .yd-dialog-main-cancel,.yd-dialog .yd-dialog-main-sure{
+    bottom:56px !important;
+}
+.yd-dialog .yd-dialog-main-cancel{
+    right: 30% !important;
+}
+.yd-dialog .yd-dialog-main-sure{
+    right:60% !important;
+}
+.yd-dialog-main p{
+    width:85%;
+    height:34px;
+    margin:25px auto 0 auto;
+    /*padding-top: 25px;*/
+    line-height: 21px;
+    overflow: hidden;
+    word-break:break-all;
+}
+/*重置气泡样式*/
+.record-error{
+    background: #6fcc47;
+}
+.record-error-mark {
+    height:26px;
+    padding:0 4px;
+    margin-top:-4px;
+    background: url("../../images/error_success.png") no-repeat center center;
+}
+.ovl-charge-tag{
+    position: absolute;
+    bottom:15px;
+    left:120px;
+    display: none;
+}
+.long-btn:active{
+    color: #fff;
+    background: url(../../images/long-btn-bg.jpg) no-repeat center bottom;
+}

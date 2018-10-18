@@ -1,0 +1,669 @@
+input{
+    padding: 0;
+}
+.select-arrow{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 35px;
+    background: url(../../images/arrow.jpg) no-repeat 8px center #fff;
+    z-index: 99;
+}
+.table-list td {
+    padding-left:20px;
+    text-indent: 0;
+	
+
+}
+.header{
+    width: 100%;
+    margin:0 auto;
+    height: 50px;
+    color: #1a1a1a;
+    font-size: 14px;
+    line-height: 50px;
+    position: relative;
+    min-width: 1050px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.table-list{
+    margin-top:-1px;
+
+}
+.J_drugnotfound{
+    margin: 70px 0 0 30px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #757575;
+}
+.table-list tr{
+    border-bottom: 1px solid #dfdfdf;
+	
+}
+.header-save-success{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 468px;
+    width: 200px;
+    height: 30px;
+    background: #6fcc47;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.header-success-mark {
+    height:26px;
+    padding:0 14px;
+    background: url("../../images/error_success.png") no-repeat center center;
+}
+.header-doctorname,.header-username{
+    position: relative;
+    width: 11.56%;
+    height: 35px;
+    margin: 6px 1.2% 0 0.5%;
+    /*border: 1px solid #dfdfdf;*/
+}
+.header-doctorname input,.header-username input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    text-indent: 7px;
+    line-height: 35px;
+    outline: none;
+}
+.ui-select-input{
+    line-height: 35px;
+}
+.header-drugstatus{
+    width: 4.8%;
+    height: 35px;
+    margin: 6px 0.7% 0 0.5%;
+    border: 1px solid #dfdfdf;
+    position: relative;
+    float: left;
+}
+.btn-style{
+    font-size:14px;
+    display: inline-block;
+    width: 88px;
+    height: 30px;
+    border: 1px;
+	border-color:#3e78ba;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background: #3e78ba;
+}
+
+.btn-style:active{
+    color:#fff;
+    background: #3e78ba; 
+}
+.newRegister .register-btn-print .btn-style{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+}
+.age-unit{
+    width:52px;
+    display: block;
+    height:32px;
+    line-height: 32px;
+    float: left;
+}
+.age-unit .ui-select-wrap{
+    width:28px;
+}
+.age-unit .header-drugstatus{
+    margin:0 6px 0 6px;
+    height:32px;
+}
+.age-unit .ui-select-input{
+    height:32px;
+    line-height: 32px;
+}
+.header-search,.header-registeradd{
+    margin-left:16px;
+    margin-top: 10px;
+}
+.register-age .btn-style{
+    margin-left:15px;
+}
+.header-drugadd{
+    margin-right: 0.77%;
+}
+.header-drugstatus{
+    width: 4.8%;
+    height: 35px;
+    margin: 6px 0.7% 0 0.5%;
+    border: 1px solid #dfdfdf;
+    position: relative;
+    float: left;
+}
+.ui-select-wrap>select {
+    display: none;
+    height: 32px;
+    vertical-align: top;
+    padding: 0 8px;
+    /* border: 1px solid #aaa; */
+}
+
+.batch-set{
+    width:104px;
+    margin: 10px 0.77% 0 0;
+    cursor: pointer;
+    background: url(../../images/fixsearch-long-btn.png);
+}
+.date-search{
+    display: block;
+    width: 88px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left:16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #3e78ba;
+    line-height: 30px;
+    text-align: center;
+    background: url(../../images/short-btn-bg.jpg);
+}
+.main{
+    width: 100%;
+    margin-top: 73px;
+}
+.main-content-inner{
+    width: 100%;
+    padding: 0;
+}
+.alert-inner{
+    width: 92.8%;;
+}
+.print-table .print-head{
+    width:auto;
+}
+.table-title{
+    background-color: #f5f5f5;
+	
+}
+.cloudClinic-box{
+    padding-top: 0px;
+    padding-left:0px;
+    min-width: 680px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.fixed-panel{
+    position: absolute;
+    width: 92.8%;
+    left: 2.4%;
+    color: #1a1a1a;
+    font-size: 14px;
+    background: #fff;
+    z-index: 100;
+}
+.first .fixed-panel{left:40px;}
+.select-radio,.sex-radio {
+    width: 17px;
+    height: 17px;
+    line-height: 32px;
+    background: url(../../images/unselect.jpg) no-repeat center;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: -5%;
+    cursor: pointer;
+}
+.select-cur,.sex-cur {
+    width: 17px !important;
+    height: 17px !important;
+    background: url(../../images/select.jpg) no-repeat center;
+    vertical-align: -5%;
+}
+.line-cur{
+    background-color: #f5f5f5;
+}
+.J_registerList tr{
+    cursor: pointer;
+}
+.newRegister{
+	background-color: #fff;
+	height: 100%;
+	position: absolute;
+	width: 336px;
+	top: -2px;
+	z-index: 0;
+	overflow: hidden;
+	display: none;
+	border-left: 1px solid #dfdfdf;
+}
+.newRegister-desc{
+    height:32px;
+    line-height: 32px;
+    float: left;
+    display: block;
+    width:70px;
+    text-align: right;
+}
+.register-id{
+    float: left;
+}
+.newRegister-top{
+    width: 400px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fff;
+}
+.newRegister-title{
+    padding-left:25px;
+    height:50px;
+    line-height: 50px;
+    color:#1a1a1a;
+    font-size: 14px;
+}
+.newRegister-content{
+    padding:20px 0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.age,.sex{
+    display: block;
+    float:left;
+}
+.register-sex-age{
+    height: 32px;
+    line-height: 32px;
+    margin-right:0px;
+}
+.register-num{
+    height:32px;
+    line-height: 32px;
+    margin-bottom:15px;
+}
+.register-name{
+    overflow: hidden;
+    margin:30px 0 30px 0;
+    height:34px;
+    line-height: 32px;
+}
+.register-name .disabled,.discount-pay-input-box .disabled,.really-pay-input-box .disabled,.age .disabled{
+    background: #f5f5f5;
+}
+.single-information .sex-cur.sex-disable {
+    width: 17px !important;
+    height: 17px !important;
+    background: url(../../images/disabled.jpg) no-repeat center;
+    vertical-align: -5%;
+}
+.project .disabled{
+    background-color: #f5f5f5;
+    color:#383838;
+}
+.register-name .sug-ul-dom{
+    position: absolute;
+    width: 190px!important;
+    overflow: hidden;
+    background: #fff;
+    top: 151px;
+    left: 70px;
+    z-index: 9;
+    border: 1px solid #999;
+    color: #383838;
+}
+.register-name .sug-ul-dom li{
+    padding:0 7px;
+}
+.header-username .sug-ul-dom{
+    position: absolute;
+    width: 230px;
+    overflow: hidden;
+    background: #fff;
+    top: 36px;
+    left: 0px;
+    z-index: 9;
+    border: 1px solid #999;
+    color: #383838;
+}
+.register-name .sug-ul-dom i {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.name .sug-ul-dom li {
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 43px;
+    line-height: 43px;
+}
+.register-name .sug-ul-dom .name-search-name {
+    width: 50%;
+}
+.register-name .sug-ul-dom .name-search-gender{
+    width: 23%;
+}
+.register-name .sug-ul-dom .name-search-age{
+    width: 23%;
+}
+.register-name-input {
+    text-indent: 7px;
+    background: url(../../images/Magnifier.png) no-repeat ;
+    background-position: 95% center;
+    width: 190px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    word-break: break-all;
+    vertical-align: top;
+}
+.register-age{
+    height: 32px;
+    margin-bottom: 15px;
+}
+.register-age-input{
+    overflow: hidden;
+    float: left;
+    padding-left:7px;
+    width: 31px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    word-break: break-all;
+    vertical-align: top;
+}
+.register-sex-age{
+    margin:15px 0 15px 15px;
+}
+.each-sex{
+    display: block;
+    float:left;
+    margin-right:14px;
+}
+.department,.doctor,.project,.status{
+    height:32px;
+    line-height: 32px;
+    margin-bottom:15px;
+}
+.department .header-drugstatus,.doctor .header-drugstatus,.project .header-drugstatus{
+    width:300px;
+    height:32px;
+    margin:100;
+}
+.status{
+    margin-left: 24px;
+    float:left;
+}
+.status .header-registerstatus{
+     width:55px;
+     height:32px;
+     margin:0;
+}
+.department .ui-select-input,.doctor .ui-select-input,.project .ui-select-input{
+    line-height: 32px;
+}
+.should-pay{
+    overflow: hidden;
+    height:32px;
+    line-height: 32px;
+    margin-bottom:15px;
+}
+.pay-num{
+    padding-left: 7px;
+    width:156px;
+    display: block;
+    float: left;
+}
+.discount-pay-input-box,.really-pay-input-box{
+    position: relative;
+    width: 191px;
+    float: left;
+    height:32px;
+    margin-bottom:15px;
+}
+.discount-pay,.really-pay{
+    overflow:hidden;
+}
+.discount-pay-input,.really-pay-input{
+    padding-right:25px;
+    display: block;
+    float: left;
+    width:165px;
+    height:32px;
+    text-indent: 7px;
+    line-height: 32px;
+    outline: none;
+}
+.discount-pay-input-box .unit,.really-pay-input-box .unit{
+    height:32px;
+    line-height: 32px;
+    position: absolute;
+    right:10px;
+    top:0;
+}
+.register-btn-print{
+    text-align: center;
+}
+.register-btn-print-modify{
+    width:275px;
+    margin:0 auto;
+}
+.register_charge{
+    display: block;
+    float: left;
+    margin:8px 0px 0 73px;
+}
+.first{
+    font-size:14px;
+}
+.first .print-config {
+    display: block;
+    float: left;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}
+.first .print-config2 {
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    color: #3e78ba;
+}
+.j_print_cont{
+}
+.register_charge_modify,.register_back,.modify_print,.J_register_save,.J_stop{
+    display: block;
+    float: left;
+    margin-right:3px;
+    color: #3e78ba;
+    padding:0;
+    line-height: 30px;
+}
+.print-config .print-check {
+    vertical-align: top;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    width: 17px;
+    height: 17px;
+    margin: 0 4px 0 12px;
+    background: url("../../images/check.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.print-config .print-checked {
+    background: url("../../images/checked.png") no-repeat 0 0;
+}
+/*付款弹层*/
+.overlay-box{
+    margin-top:-30px;
+}
+.purchase-overlay{
+    font-size: 14px;
+    text-align: left;
+    padding: 2px 30px;
+}
+.pay-method{
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 20px;
+    background: url("../../images/unselect.jpg") no-repeat center left;
+    margin:0 10px;
+}
+.pay-method.radio-cur{
+    background: url("../../images/select.jpg") no-repeat center left;
+}
+#payPri{
+    padding: 0 7px;
+}
+.ovl-charge-tag{
+    position: absolute;
+    bottom:3px;
+    left:135px;
+    display: none;
+}
+/*浮动、隐藏样式*/
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.hide{
+    display: none;
+}
+/* zh新增6.1 */
+.select-icon{
+    display: inline-block;
+    width:17px;
+    height:17px;
+    background: url("../../images/check.png") no-repeat center center;
+    vertical-align: text-top;
+    margin-right:5px;
+    cursor: pointer;
+}
+.sex-cur.sex-disable {
+    width: 17px !important;
+    height: 17px !important;
+    background: url(../../images/disabled.jpg) no-repeat center;
+    vertical-align: -5%;
+}
+.noUseBatchs,button.noUseBatchs{
+    display: none;
+}
+.please-wait{
+    height:48px;
+    line-height: 48px;
+}
+input {
+    border: 1px #dfdfdf solid;
+    height: 32px;
+    line-height: 32px;
+}
+.name .sug-ul-dom li:hover, .s-hover {
+    background: #f5f5f5;
+}
+.success-mark{
+    background:#6fcc47;
+
+}
+.error-mark{
+    background: #f68b8b;
+}
+.success-mark-txt{
+    width: 200px;
+    height:26px;
+    padding:0 14px;
+    margin-left:-5px;
+    background: url("../../images/error_success.png") no-repeat center center;
+}
+.pop-mark {
+    display: none;
+    position: absolute;
+    top: 57px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+}
+.margin-bottom{
+    margin-bottom:20mm;
+}
+.null-box{
+    height:20px;
+}
+.print-wrap{
+    /*height:auto;*/
+    overflow: auto;
+    /*display: block;*/
+}
+.print-table .print-title1{
+    padding:6mm 0 0 0;
+    font-size:5mm;
+}
+.print-table .print-title2{
+    padding:4mm 0 7mm 0;
+     font-size:4mm;
+}
+.print-table .print-info{
+    padding: 3mm 11mm 3mm 9mm;
+}
+.print-end {
+    padding:5mm 0 9mm 0;
+}
+.info{
+    margin:0 auto;
+    width:36mm;
+}
+.disabled .ui-select-arrow{
+    background: url("../../images/arrows.png") no-repeat left -9px;
+}
+.J_register_status,.J_register_name,.J_register_sex,.J_register_department,.J_register_doctor,.J_register_operator,.J_register_age{
+    width:10%;
+}
+.J_register_dateTime{
+    width:25%;
+}
+.disable-color{
+    color:#d1d1d1;
+    background: url(../../images/short-btn-gray.jpg);
+}
+.J_stop{
+    margin-top:10px;
+}
+.auto{
+    margin:0 auto;
+    float:none!important;
+}
+.float-right{
+    float: right!important;
+}
+.stress{
+    color:#3d77b9;
+}

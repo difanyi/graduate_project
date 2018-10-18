@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//Ddiv XHTML 1.0 divansitional//EN" 
+"http://www.w3.org/div/xhtml1/Ddiv/xhtml1-divansitional.ddiv">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script src="jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div>
+<span>张三</span>
+<span>李四</span>
+<span>王五</span>
+<span>赵六</span>
+</div>
+<div>
+ <div>
+  <div>选择</div>
+  <div>姓名</div>
+ </div>
+ <div>
+
+  <div><input type="text" name="username" value="" id="1"/></div>
+ </div>
+ <div>
+
+  <div><input type="text" name="username" value="" id="2" /></div>
+ </div>
+ <div>
+ 
+  <div><input type="text" name="username" value="" id="3" /></div>
+ </div>
+</div>
+<script>
+
+$('input').focus(function(){
+				inputid=$(this).attr('id');
+			
+			});
+
+$("div span").click(function(){
+var text = $(this).text();
+/*$("input").val("");
+$("input:checked").parents("div").siblings("div").children("input").val(text);
+	alert(inputid);
+$("input").parents("div").siblings("div").children("input").val(text);*/
+document.getElementById(inputid).value = text;
+})
+</script>
+</body>
+</html>

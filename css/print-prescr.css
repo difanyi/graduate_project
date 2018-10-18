@@ -1,0 +1,828 @@
+.prescription-wrap{
+    width: 210mm;
+    height: 0;
+    overflow: hidden;
+    display: none;
+}
+.prescription-cont{
+    width: 210mm;
+    padding-top: 2mm;
+    font-size: 3.2mm;
+    line-height: 3.2mm;
+    transform-origin: 0 0;
+    color:#111111;
+}
+.prescription-cont.prescr-inchrome{
+    padding-top: 6mm;
+}
+.prescription-cont.prescr-break{
+    page-break-after:always;
+}
+.prescription-box{
+    width: 92%;
+    margin: 0 auto;
+}
+.prescription-cont .prescr-hr{
+    display: block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-bottom: 0.3mm solid #111111;
+    /*background: #111111;*/
+    padding: 0;
+    margin: 0;
+}
+
+.prescr-table,.prescr-body-rp,.prescr-herbal-wrap,.prescr-exam-title,.prescr-additn-type,.prescr-exam-type{
+    width: 100%;
+    font-size: 3.2mm;
+    line-height: 3.2mm;
+    color: #111111;
+    word-break: break-all;
+}
+.prescr-top-type{
+    font-size: 2.5mm;
+    width: 90%;
+    text-align: right;
+}
+.prescr-top-text{
+    font-size: 2.5mm;
+    width: 10%;
+    text-align: right;
+}
+.prescr-tit-text{
+    font-size: 5mm;
+    line-height: 5mm;
+    width: 10%;
+    text-align: right;
+    padding: 2.8mm 0;
+}
+.prescr-tit-title{
+    font-size: 5mm;
+    line-height: 5mm;
+    width: 80%;
+    text-align: center;
+    padding: 2.8mm 0;
+}
+.prescr-info-record{
+    padding: 2.5mm 0 1.2mm;
+    text-align: left;
+    width: 50%;
+}
+.prescr-info-date{
+    padding: 2.5mm 0 1.2mm;
+    text-align: right;
+    width: 50%;
+}
+.prescr-info-name{
+    padding: 1.2mm 0 2.5mm;
+    width: 31%;
+    text-align: left;
+}
+.prescr-info-gender{
+    padding: 1.2mm 0 2.5mm;
+    width: 30%;
+    text-align: left;
+}
+.prescr-info-age{
+    padding: 1.2mm 0 2.5mm;
+    width: 20%;
+    text-align: left;
+}
+.prescr-info-depart{
+    padding: 1.2mm 0 2.5mm;
+    width: 19%;
+    text-align: right;
+}
+.prescr-body-lcase{
+    padding: 2.2mm 0;
+}
+.prescr-body-scase{
+    padding: 2.2mm 0;
+    width: 64%;
+}
+.prescr-body-tdosage{
+    padding: 2.2mm 0;
+    width: 36%;
+}
+.prescr-body-rp{
+    font-size: 5mm;
+    line-height: 5mm;
+}
+.prescr-list-wrap{
+    height: 80mm;
+    padding-top: 0.8mm;
+}
+.prescr-list-wrap td{
+    padding: 2.1mm 0;
+}
+.prescr-list-wrap .prescr-list-th{
+    padding: 2.3mm 0 3.2mm;
+}
+.prescr-list-wrap .prescr-list-group{
+    font-weight: bolder;
+    padding: 4.2mm 0 2.1mm;
+}
+.prescr-list-wrap .prescr-list-group.normal{
+    padding: 2.1mm 0;
+}
+.prescr-list-name{
+    width: 30.7%;
+}
+.prescr-list-specif{
+    width: 17%;
+}
+.prescr-list-frequ{
+    width: 13.5%;
+}
+.prescr-list-dosage{
+    width: 12.5%;
+}
+.prescr-list-usage{
+    width: 11.3%;
+}
+.prescr-list-tdosage{
+    width: 7%;
+}
+.prescr-list-unival{
+    width: 8%;
+    text-align: right;
+}
+.prescr-herbal-wrap{
+    height: 75.2mm;
+    padding-top: 0.8mm;
+}
+.prescr-herbal-item{
+    vertical-align: top;
+    display: -moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    padding: 2.1mm 0;
+    margin-right: 13.8mm;
+}
+.prescr-herbal-frequ{
+    padding: 3.4mm 0 0;
+    width: 57.2%;
+}
+.prescr-herbal-usage{
+    padding: 3.4mm 0 0;
+    width: 42.8%;
+}
+.prescr-check-review,.prescr-check-charge,.prescr-check-doctor,.prescr-check-ptext,.prescr-check-price,.prescr-check-friend,.prescr-check-time,.prescr-check-time-s{
+    padding: 2.6mm 0 0;
+}
+.prescr-check-review{
+    width: 30.7%;
+}
+.prescr-check-charge{
+    width: 26.5%;
+}
+.prescr-check-doctor{
+    width: 16.6%;
+}
+.prescr-check-ptext{
+    width: 13.2%;
+    text-align: right;
+}
+.prescr-check-price{
+    width: 13%;
+    text-align: right;
+}
+.prescr-check-friend{
+    width: 50%;
+}
+.prescr-check-time{
+    width: 50%;
+    text-align: right;
+}
+.prescr-check-time-s{
+    width: 26.2%;
+    text-align: right;
+}
+/*诊疗费用部分-begin*/
+.examination-box{
+    width: 92%;
+    margin: 0 auto;
+}
+.examination-box .prescr-info-name,.examination-box .prescr-info-gender,.examination-box .prescr-info-age,.examination-box .prescr-info-depart{
+    padding: 1.2mm 0;
+}
+.examination-box .prescr-info-lcase{
+    padding: 1.2mm 0 2.5mm;
+}
+.examination-box .prescr-exam-wrap{
+    height: 92mm;
+}
+.examination-box .prescr-exam-title{
+    padding: 3mm 0;
+}
+.examination-box .prescr-exam-blank{
+    padding: 11mm 0 3mm;
+}
+.examination-box .prescr-exam-hr{
+    display: block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 0.3mm solid #a9a9a9;
+    padding: 0 0 3.5mm;
+    margin: 0;
+}
+.examination-box .prescr-exam-type,.examination-box .prescr-additn-type{
+    width: 100%;
+}
+.examination-box .prescr-exam-type td,.examination-box .prescr-additn-type td{
+    padding: 2.5mm 0;
+}
+.examination-box .prescr-check-charge{
+    width: 57.2%;
+}
+.examination-box .prescr-check-time{
+    width: 100%;
+}
+/*诊疗费用部分-end*/
+/*打印小票-begin*/
+.print-wrap{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    display: none;
+}
+.print-cont{
+    font-size: 13px !important;
+    font-family: "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    line-height: 13px;
+    margin: 0 auto;
+}
+.print-table{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.print-table .print-border{
+    border-bottom:1px #777777 dashed;
+}
+.print-table .print-title{
+    padding: 3.2mm 0;
+    font-size: 4.2mm;
+    text-align: center;
+}
+.print-table .print-total{
+    text-align: right;
+    padding: 2.8mm 0;
+    font-size: 13px;
+}
+.print-table .print-info{
+    text-align: left;
+    padding: 1.6mm 0;
+    font-size: 13px;
+}
+.print-table .j_print_time{
+    display: inline-block;
+}
+.print-table .print-head{
+    display: inline-block;
+    width:60px;
+}
+.pr-table{ width: 100%;   font-size: 13px;  }
+.pr-table th{
+    padding: 1.6mm 0;
+    font-size: 13px;
+    word-break: break-all;
+}
+.pr-table td{
+    padding: 1.6mm 1.25mm 1.6mm 0;
+    font-size: 13px;
+    word-break: break-all;
+}
+.pr-table .pr-th-name{
+    width: 55%;
+    text-align: left;
+}
+.pr-table .pr-th-num{
+    width: 22.5%;
+    text-align: left;
+}
+.pr-table .pr-th-price{
+    width: 22.5%;
+    text-align: center;
+}
+.pr-table .pr-tr-price{
+    text-align: right;
+}
+.pr-table .pr-tr-drug{
+    word-break: break-all;
+}
+.j_print_total{margin-left:5px;}
+.print-end{
+    text-align:center;
+}
+
+.print-only-total .pr-table .pr-th-name{
+    width: 65%;
+    text-align: left;
+}
+.print-only-total .pr-table .pr-th-price{
+    width: 32.5%;
+    text-align: right;
+}
+/*打印小票-end*/
+
+/*竖版打印样式*/
+.prescription-v-wrap{
+    width: 148mm;
+    height: 0;
+    overflow: hidden;
+    display: none;
+}
+.prescription-v-cont{
+    width: 148mm;
+    padding-top: 2mm;
+    font-size: 3.2mm;
+    line-height: 3.2mm;
+    transform-origin: 0 0;
+    color:#111111;
+}
+.prescription-v-cont.prescr-inchrome{
+    padding-top: 6mm;
+}
+.prescription-v-cont.prescr-break{
+    page-break-after:always;
+}
+.prescription-v-box{
+    width: 92%;
+    margin: 0 auto;
+}
+.prescription-v-cont .prescr-v-hr{
+    display: block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-bottom: 0.3mm solid #111111;
+    /*background: #111111;*/
+    padding: 0;
+    margin: 0;
+}
+
+.prescr-v-table,.prescr-v-body-rp,.prescr-v-herbal-wrap,.prescr-v-exam-title,.prescr-v-additn-type,.prescr-v-exam-type{
+    width: 100%;
+    font-size: 3.2mm;
+    line-height: 3.2mm;
+    color: #111111;
+    word-break: break-all;
+}
+.prescr-v-top-type{
+    font-size: 2.5mm;
+    width: 90%;
+    text-align: right;
+}
+.prescr-v-top-text{
+    font-size: 2.5mm;
+    width: 10%;
+    text-align: right;
+}
+.prescr-v-tit-text{
+    font-size: 5mm;
+    line-height: 5mm;
+    width: 10%;
+    text-align: right;
+    padding: 2.8mm 0;
+}
+.prescr-v-tit-title{
+    font-size: 5mm;
+    line-height: 5mm;
+    width: 80%;
+    text-align: center;
+    padding: 2.8mm 0;
+}
+.prescr-v-info-record{
+    padding: 5.4mm 0 2.8mm;
+    width: 33%;
+}
+.prescr-v-info-depart{
+    padding: 5.4mm 0 2.8mm 2%;
+    width: 25%;
+}
+.prescr-v-info-date{
+    padding: 5.4mm 0 2.8mm 2%;
+    width: 38%;
+}
+.prescr-v-info-name{
+    padding: 2.8mm 0 5.6mm;
+    width: 33%;
+}
+.prescr-v-info-gender{
+    padding: 2.8mm 0 5.6mm 2%;
+    width: 25%;
+}
+.prescr-v-info-age{
+    padding: 2.8mm 0 5.6mm 2%;
+    width: 38%;
+}
+.prescr-v-body-lcase{
+    padding: 3.6mm 0;
+}
+.prescr-v-body-scase{
+    padding: 3.6mm 0;
+    width: 64%;
+}
+.prescr-v-body-tdosage{
+    padding: 3.6mm 0;
+    width: 36%;
+}
+.prescr-v-body-rp{
+    font-size: 5mm;
+    line-height: 5mm;
+}
+.prescr-v-list-wrap{
+    height: 114mm;
+    padding-top: 0.8mm;
+}
+.prescr-v-list-wrap td{
+    padding-top: 2.5mm;
+    padding-bottom: 2.5mm;
+}
+.prescr-v-list-wrap .prescr-list-th{
+    padding-top: 4.8mm;
+    padding-bottom: 3.2mm;
+}
+.prescr-v-list-wrap .prescr-v-list-group{
+    font-weight: bolder;
+    padding: 4.5mm 0 2.1mm;
+}
+.prescr-v-list-wrap .prescr-v-list-group.normal{
+    padding: 2.1mm 0;
+}
+.prescr-v-list-name{
+    width: 38%;
+}
+.prescr-v-list-frequ,.prescr-v-list-dosage,.prescr-v-list-usage{
+    padding-left: 1.5%;
+    width: 12.5%;
+}
+.prescr-v-list-tdosage{
+    padding-left: 1.5%;
+    width: 7%;
+}
+.prescr-v-list-unival{
+    padding-left: 1.5%;
+    width: 10%;
+}
+.prescr-v-herbal-wrap{
+    height: 92.5mm;
+    padding-top: 2.5mm;
+}
+.prescr-v-herbal-item{
+    vertical-align: top;
+    display: -moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    padding-top: 2.5mm;
+    padding-bottom: 2.5mm;
+    margin-right: 10mm;
+}
+.prescr-v-herbal-frequ{
+    padding: 5mm 0 2.5mm;
+}
+.prescr-v-herbal-usage{
+    padding: 2.5mm 0 5mm;
+}
+.prescr-v-check-review,.prescr-v-check-charge,.prescr-v-check-doctor,.prescr-v-check-ptext,.prescr-v-check-time,.prescr-v-check-time-s{
+    padding: 5.2mm 0 0;
+}
+.prescr-v-check-review{
+    width: 33%;
+}
+.prescr-v-check-charge{
+    padding-left: 1.5%;
+    width: 35.5%;
+}
+.prescr-v-check-doctor{
+    padding-left: 1.5%;
+    width: 28.5%;
+}
+.prescr-v-check-ptext{
+    width: 33%;
+}
+.prescr-v-check-time{
+    padding-left: 1.5%;
+}
+.prescr-v-check-friend{
+    padding-top: 8mm;
+    width: 100%;
+}
+/*诊疗费用部分-begin*/
+.examination-v-box{
+    width: 92%;
+    margin: 0 auto;
+}
+.examination-v-box .prescr-v-info-name,.examination-v-box .prescr-v-info-gender,.examination-v-box .prescr-v-info-age,.examination-v-box .prescr-v-info-depart{
+    padding-bottom: 2.5mm;
+}
+.examination-v-box .prescr-v-info-lcase{
+    padding: 2.5mm 0 5mm;
+}
+.examination-v-box .prescr-v-exam-wrap{
+    height: 136mm;
+}
+.examination-v-box .prescr-v-exam-title{
+    padding: 3.2mm 0;
+}
+.examination-v-box .prescr-exam-blank{
+    padding: 5mm 0 3mm;
+}
+.examination-v-box .prescr-v-exam-hr{
+    display: block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 0.3mm solid #a9a9a9;
+    padding: 0 0 2.5mm;
+    margin: 0;
+}
+.examination-v-box .prescr-v-exam-type,.examination-v-box .prescr-v-additn-type{
+    width: 100%;
+}
+.examination-v-box .prescr-v-exam-type td,.examination-v-box .prescr-v-additn-type td{
+    padding: 2.5mm 0;
+}
+
+.examination-v-box .prescr-v-check-charge{
+    padding-left: 0;
+    width: 33%;
+}
+.examination-v-box .prescr-v-check-doctor{
+    padding-left: 2%;
+    width: 25%;
+}
+.examination-v-box .prescr-v-check-ptext{
+    width: 38%;
+    text-align: right;
+}
+.examination-v-box .prescr-v-check-time{
+    padding-left: 0;
+    padding-top: 3.6mm;
+    width: 100%;
+    text-align: right;
+}
+.examination-v-box .prescr-v-text-right{
+    text-align: right;
+}
+/*诊疗费用部分-end*/
+
+/*打印病历*/
+/*病例打印样式*/
+.print-ctrl{
+    width: 188mm;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+#print_size{
+    height: 105mm;
+}
+.precord-cont{
+    width: 188mm;
+}
+.print-hidewrap{
+    display: none;
+}
+/*框架样式-begin*/
+.print-record{
+    width: 210mm;
+    padding-top: 0.2mm;
+}
+.print-record.print-break{
+    page-break-after:always;
+}
+.precord-table{
+    width: 188mm;
+    margin: 0 auto;
+    font-size: 3.2mm;
+    line-height: 3.2mm;
+    color: #383838;
+}
+.precord-tit-text{
+    font-size: 5mm;
+    line-height: 5mm;
+    width: 10%;
+    text-align: right;
+    padding: 5.5mm 0 1.8mm;
+}
+.precord-tit-title{
+    font-size: 5mm;
+    line-height: 5mm;
+    width: 80%;
+    text-align: center;
+    padding: 5.5mm 0 1.8mm;
+}
+.precord-info-record{
+    padding: 3.2mm 0 1.2mm;
+    text-align: left;
+    width: 50%;
+}
+.precord-info-date{
+    padding: 3.2mm 0 1.2mm;
+    text-align: right;
+    width: 50%;
+}
+.precord-info-name{
+    padding: 1.2mm 0 3.2mm;
+    width: 31%;
+    text-align: left;
+}
+.precord-info-gender{
+    padding: 1.2mm 0 3.2mm;
+    width: 30%;
+    text-align: left;
+}
+.precord-info-age{
+    padding: 1.2mm 0 3.2mm;
+    width: 20%;
+    text-align: left;
+}
+.precord-info-depart{
+    padding: 1.2mm 0 3.2mm;
+    width: 19%;
+    text-align: right;
+}
+.precord-check-date{
+    padding-top: 3.6mm;
+    width: 40%;
+    text-align: right;
+}
+.precord-check-doctor{
+    padding-top: 3.6mm;
+    width: 42%;
+}
+.precord-check-page{
+    padding-top: 3.6mm;
+    width: 16%;
+    text-align: center;
+}
+.precord-check-date{
+    padding-top: 3.6mm;
+    width: 42%;
+    text-align: right;
+}
+.precord-hr{
+    display: block;
+    width: 188mm;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-bottom: 0.3mm solid #383838;
+    padding: 0;
+    margin: 0 auto;
+}
+.print-record .precord-cont{
+    height: 105mm;
+    margin: 0 auto;
+}
+.precord-line{
+    display: table;
+    width: 100%;
+}
+.precord-line.precord-inline{
+    width: auto;
+}
+.precord-line.precord-div{
+    display: block;
+}
+.precord-line>p,.precord-line>span{
+    display: table-cell;
+    vertical-align: middle;
+}
+/*框架样式-end*/
+/*数据内容-begin*/
+.precord-cont{
+    font-size: 3.2mm;
+    line-height: 3.2mm;
+    color: #383838;
+}
+.precord-line .precord-note{
+    vertical-align: top;
+}
+.precord-note-info{
+    display: inline-block;
+    margin-right: 8.2mm;
+}
+.precord-note-symptom{
+    margin-right: 8.2mm;
+}
+.precord-line .precord-symptom{
+    padding-top: 2.5mm;
+}
+.precord-note-other{
+    width: 18mm;
+}
+
+.precord-note .other-item{
+    display: inline-block;
+    margin-right: 8mm;
+}
+.precord-note-diagnosis{
+    width: 11mm;
+}
+
+.precord-module{
+    padding: 4mm 0 2.4mm;
+    border-bottom: 0.3mm solid #383838;
+}
+.precord-exam-name,.precord-exam-total,.precord-exam-space{
+    padding: 1.5mm 0;
+    word-break: break-all;
+}
+.precord-exam-name{
+    width: 24.2%;
+}
+.precord-exam-total{
+    padding-left: 1%;
+    width: 19.8%;
+}
+.precord-exam-space{
+    width: 10%
+}
+.precord-line .first-line{
+    padding-top: 3.2mm;
+    padding-bottom:1.5mm;
+}
+.precord-patent-group{
+    display: block;
+    font-weight: bolder;
+    padding: 3.2mm 0 1.5mm;
+}
+.precord-patent-group.normal{
+    padding: 1.5mm 0;
+}
+.precord-patent-name,
+.precord-patent-specif,
+.precord-patent-frequ,
+.precord-patent-dosage,
+.precord-patent-usage,
+.precord-patent-total{
+    padding-top: 1.5mm;
+    padding-bottom:1.5mm;
+    word-break: break-all;
+}
+.precord-patent-name{
+    width: 23.7%;
+}
+.precord-patent-specif{
+    padding-left: 1%;
+    width: 17%;
+}
+.precord-patent-frequ{
+    padding-left: 1%;
+    width: 18.5%;
+}
+.precord-patent-dosage{
+    padding-left: 1%;
+    width: 11.5%;
+}
+.precord-patent-usage{
+    padding-left: 1%;
+    width: 11.3%;
+}
+.precord-patent-total{
+    padding-left: 1%;
+    width: 13%;
+}
+.precord-chinese-help{
+    padding: 1.5mm 0 0;
+}
+.precord-chinese-require{
+    display: inline-block;
+    margin-right: 8mm;
+    padding: 1.5mm 0;
+}
+.precord-chinese-require.require-last{
+    margin-right: 0;
+}
+.precord-chinese-herbal{
+    display:inline-block;
+    padding: 1.5mm 0;
+    margin-right: 13.8mm;
+}
+.precord-addit-name,.precord-addit-space{
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+    word-break: break-all;
+}
+.precord-addit-name{
+    width: 45%;
+}
+.precord-addit-space{
+    width: 10%;
+}
+.precord-advice{
+    padding: 4mm 0 2.4mm;
+    vertical-align: top;
+}
+/*数据内容-end*/

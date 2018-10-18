@@ -1,0 +1,43 @@
+ul.holder { margin: 0; height: auto !important; width:590px;min-height:32px;padding:2px;overflow: hidden;zoom: 1;}
+*:first-child+html ul.holder { padding-bottom: 2px; } * html ul.holder { padding-bottom: 2px; } /* ie7 and below */
+ul.holder li { float: left; list-style-type: none;}
+ul.holder li.bit-box, ul.holder li.bit-input input { font-size: 14px; }
+ul.holder li.bit-box{
+	margin:5px 5px 5px 0;
+}
+ul.holder li.bit-box {border: 1px solid #dfdfdf; background: #f5f5f5; padding: 0 10px 0 10px;height:32px;line-height:32px;}
+ul.holder li.bit-box-focus { border-color: #598BEC; background: #598BEC; color: #fff; }
+ul.holder li.bit-input{width:100%;}
+ul.holder li.bit-input input { margin: 0;outline: 0;color:#656565;height:32px;line-height:32px;width:566px;padding:0 10px;}
+ul.holder li.bit-input input.smallinput { width: 20px; }
+   
+form, #add { border: 1px solid #999; width: 550px; margin: 50px; padding: 20px 30px 10px; }
+form ol li { list-style-type: none; }
+form ol { font-size: 14px; margin: 0; padding: 0; }
+form ol li.input-text { margin-bottom: 10px; list-style-type: none; padding-bottom: 10px; }
+form ol li.input-text label { font-weight: bold; cursor: pointer; display: block; font-size: 13px; margin-bottom: 10px; }
+form ol li.input-text input { width: 500px;font-size: 14px; border: 1px solid #999; }
+form ul.holder { width: 500px; }
+form ul { margin: 0 !important }
+#hmSelect-list ul.holder li.bit-box, #apple-list ul.holder li.bit-box { padding-right: 15px; position: relative; }
+#apple-list ul.holder li.bit-input { margin: 0; }
+#apple-list ul.holder li.bit-input input.smallinput { width: 5px; }
+ul.holder li.bit-hover { background: #BBCEF1; border: 1px solid #6D95E0; }
+ul.holder li.bit-box-focus { border-color: #598BEC; background: #598BEC; color: #fff; }
+ul.holder li.bit-box span{max-width: 520px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block;}
+ul.holder li.bit-box a.closebutton { margin-left:10px;margin-top: 10px;background: url("../../images/x.png") no-repeat center center;width:14px;height:14px;display: inline-block;vertical-align: top;}
+ul.holder li.bit-box a.closebutton:hover { color:#fff; }
+ul.holder li.bit-box-focus a.closebutton, ul.holder li.bit-box-focus a.closebutton:hover { background-position: bottom; }
+
+#hmSelect-auto { display: none; position: absolute; width: 588px; background: #fff; z-index: 9;margin-left:47px;top:36px;}
+#hmSelect-auto .default { padding: 5px 7px;  }
+#hmSelect-auto ul { display: none; margin: 0; padding: 0; overflow: auto; border: 1px solid #dfdfdf;color: #383838;}
+#hmSelect-auto ul li { padding: 4px 12px; z-index: 1000; cursor: pointer; margin: 0; list-style-type: none;  font-size: 14px;height:31px;line-height:31px;}
+/*#hmSelect-auto ul li em { font-weight: bold; font-style: normal; background: #ccc; }*/
+#hmSelect-auto ul li.auto-focus { background: #f5f5f5;  }
+#hmSelect-auto ul li.auto-focus em { background: none; }
+
+#demo ul.holder li.bit-input input { padding: 2px 0 1px; border: 1px solid #999; }
+#add a { color: #666; }
+#add-test { width: 100px; padding: 2px; }
+#button_container { margin-left: 70px; margin-bottom: 30px;}

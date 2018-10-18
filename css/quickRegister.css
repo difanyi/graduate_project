@@ -1,0 +1,391 @@
+.black_overlay{ 
+     display: none; 
+     position: absolute; 
+     top: 0%; 
+     left: 0%; 
+     width: 100%; 
+     height: 100%; 
+     background-color: white; 
+     z-index:1001; 
+     -moz-opacity: 0.8; 
+     opacity:.80; 
+     filter: alpha(opacity=88); 
+        } 
+.white_content { 
+     display: none; 
+	 position: absolute; 
+     top: 10%; 
+     left: 0%; 
+	 width: 100%; 
+     height: 80%; 
+     padding: 20px; 
+     border: 1px solid #3d77b9; 
+     background-color: white; 
+     z-index:1002; 
+     overflow: auto; 
+} 
+.g-doc{
+    min-width:1000px;
+    background: #ffffff;
+}
+.m-main .m-bd{
+    min-height: 800px;
+}
+.m-register{
+    position: absolute;
+    width: 864px;
+    top: 37px;
+    left: 50%;
+    margin-left:-500px;
+}
+.m-register .m-regrMain{
+    width: 100%;
+}
+.m-register .m-fmRegr,.m-register .m-regeSide{
+    float: left;
+}
+.m-register .m-fmRegr{
+    width: 572px;
+    height: 100%;
+    border-right: 1px solid #dfdfdf;
+}
+.m-register .m-regr-top{
+    width: 465px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 7px;
+    color: #000;
+    font-size: 18px;
+}
+.m-register .m-fmRegr-desc{
+    padding:0 0 8px 7px;
+    color: #757575;
+    font-size: 14px;
+    line-height: 44px;
+}
+.m-register .m-fmRegr .m-posImg .m-upLoad{
+    position: relative;
+    display: block;
+    line-height: 46px;
+    color: #757575;
+    height: 46px;
+    font-size: 14px;
+}
+.m-register .m-fmRegr .m-posImg .j-upImg{
+    position: absolute;
+    top: 8px;
+    left: 365px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 5;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+.m-register .m-posImg .u-upImg{
+    display: inline-block;
+    width: 118px;
+    height: 32px;
+    margin-left: 12px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #3e78ba;
+    cursor: pointer;
+    background: url("../../images/register-btn-bg.jpg");
+}
+.m-register .icon-warn{
+    margin: 10px 4px 0 0;
+}
+.m-register .m-posImg .m-preview li{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin:0 10px 16px 0;
+    cursor: pointer;
+    border:1px solid #d6d6d6;
+    position:relative;
+}
+.m-register .m-posImg .m-preview li .u-closeYl{
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:14px;
+    width:14px;
+    background: url("../../images/close.png") no-repeat;
+    background-size: 100% 100%;
+}
+.m-register .m-regeSide{
+    width: 118px;
+    margin: 209px 0 0 164px;
+}
+.m-register .m-regeSide p{
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    line-height: 20px;
+}
+.m-register .m-regeSide .u-goLogin{
+    display: block;
+    width: 118px;
+    height: 32px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #3e78ba;
+    background: url("../../images/register-btn-bg.jpg");
+}
+.m-register .m-ipt{
+    margin-top: 16px;
+}
+.m-register .m-ipt input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+}
+.m-register .m-ipt input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+.m-register .m-ipt input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+.m-register .m-ipt input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ccc;
+}
+.m-register .m-ipt input,.m-register .m-ipt span{
+    float: left;
+}
+.m-register .m-ipt input{
+    display: block;
+    width: 292px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+    color: #383838;
+    font-family: "Microsoft YaHei", Arial , "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+    background: url("../../images/register-input-bg.jpg") no-repeat 0 0;
+    outline: none;
+    /*background-size: 100% 100%;*/
+    border: none;
+}
+.m-register .m-ipt input:focus{
+    background: url("../../images/register-input-bg.jpg") no-repeat 0 -50px;
+}
+.m-register .m-ipt input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    width: 290px!important;
+    height: 40px!important;
+    border: 1px solid #dfdfdf!important;
+    border-radius: 42px;
+}
+.m-register .m-ipt span{
+    line-height: 37px;
+    padding-left: 14px;
+    font-size: 12px;
+    color: #FF153C;
+}
+.m-register .u-registerBtn{
+    display: block;
+    width: 320px;
+    height: 40px;
+    margin-top: 24px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    
+    cursor: default;
+	background: #3d77b9;
+	border-radius: 20px;
+    box-shadow: 1px 1px 4px #bebebc;
+}
+
+.m-login .u-lgn-btn{
+    display: block;
+    width: 320px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    cursor: default;
+    background: #3d77b9;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px #bebebc;
+}
+
+.u-mark{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 60;
+    background: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.m-pop{
+    position: fixed;
+    left: 50%;
+    z-index: 99;
+    cursor: pointer;
+}
+.m-register .m-ipt .f-fc1{color: #b8babe;}
+.f-pt1{
+    padding-top: 16px;
+}
+.m-register .j-register{
+    background: url(../../images/register-sure-bg.jpg);
+    cursor:pointer;
+}
+.check-pass{
+    width: 0;
+    display: none;
+    overflow: hidden;
+    text-indent: -400px;
+}
+.m-ipt .check-correct{
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.u-checkPass{
+    width: 17px;
+    height: 17px;
+    margin: 15px 0 0 0;
+    background: url("../../images/check_bg.png") no-repeat;
+}
+.phone-vy{
+    float: left;
+    display: block;
+    width: 123px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    color: #757575;
+    margin: 0 0 0 10px;
+    background: url("../../images/short-btn-gray-42.jpg") no-repeat;;
+}
+.phone-vy.j-sendphoneVy{
+    color: #3e78ba;
+    background: url("../../images/short-btn-bg-42.jpg") no-repeat;
+}
+/*用户须知*/
+.u-yhxz{
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 50px;
+}
+.u-yhxz a{
+    color: #3a75bb;
+}
+.u-yhxz .j-register-check{
+    position: absolute;
+    top: 1px;
+    left: 25px;
+    width: 19px;
+    height: 19px;
+    cursor:pointer;
+    background: url("../../images/index-sprite1.png") -120px 0 no-repeat;
+}
+.u-yhxz .j-register-check.uncheck{
+    background: url("../../images/index-sprite1.png") -120px -40px no-repeat;
+}
+/*用户须知弹窗*/
+.m-pop-notes{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -289px;
+    width: 578px;
+    height: 754px;
+    z-index: 99;
+    background: #fff;
+}
+.m-pop-notes .m-cn{
+    position: relative;
+    padding: 16px 30px;
+}
+.m-pop-notes .m-cn h2{
+    color: #1a1a1a;
+    font-size: 20px;
+    font-weight: normal;
+}
+.m-pop-notes .m-cn h3{
+    color: #383838;
+    font-size: 14px;
+    line-height: 18px;
+}
+.m-pop-notes .m-cn p{
+    font-size: 12px;
+    color: #383838;
+    line-height: 18px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+.m-pop-notes .m-cn .u-ptbs{
+    padding: 20px 0;
+}
+.m-pop-notes .m-cn .u-lines1{
+    width: 100%;
+    border-top: 1px solid #dfdfdf;
+    height: 1px;
+    margin: 20px 0;
+}
+.m-pop-notes .f-notesClose{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top:20px;
+    right: 20px;
+    background: url("../../images/overlay_close.png") no-repeat;
+}
+.f-pb2{
+    padding-bottom: 20px;
+}
+.register.record-pop{
+    top: 100px;
+    margin-left: 0;
+}
+.record-success{
+    top: 100px;
+    margin-left: 0;
+    background: #6fcc47;
+}
+.password-box{
+    position: relative;
+}
+.showPassword{
+    cursor: pointer;
+    display: block;
+    width:30px;
+    height:18px;
+    padding:12px;
+    position: absolute;
+    left:265px;
+    top:0;
+}
+.m-register .marginTop100{
+    margin-top:116px;
+}
+.m-register .m-ipt .j-phoneVy{
+    width:155px;
+    background: url("../../images/register-input-bg2.jpg") no-repeat 0  0;
+}
+.m-register .m-ipt .j-phoneVy:focus{
+    background: url("../../images/register-input-bg2.jpg") no-repeat 0  -50px;
+}

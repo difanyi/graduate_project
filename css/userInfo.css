@@ -1,0 +1,305 @@
+.div1{
+	
+	display: none; 
+            position: absolute; 
+            top: 25%; 
+            left: 25%; 
+            width:40%; 
+            height: 55%; 
+            padding: 20px; 
+            border: 1px solid #3d77b9; 
+            background-color: white; 
+            z-index:1002; 
+            overflow: auto; 
+			}
+.content{
+	width: 635px;
+
+}
+.content2{
+   	margin-top: 75px;
+}
+.main-content-title-box{
+    
+}
+.con-title{
+    width:635px;
+    height:49px;
+    line-height: 49px;
+}
+.con-item{
+	width: 100%;
+	height: 52px;
+	border-bottom: 1px dashed #e5e5e5;
+	line-height: 52px;
+}
+.con-item-title{
+	display: inline-block;
+	width: 100px;
+	font-size: 14px;
+	color: #1a1a1a;
+	text-align: right;
+	vertical-align: middle;
+}
+.con-item-value{
+	font-size: 14px;
+	color: #383838;
+	margin-left: 40px;
+}
+.con-item-change{
+	float: right;
+	margin-right: 24px;
+	margin-top:30px;
+	font-size: 14px;
+	color: #3d77b9;
+	cursor: pointer;
+	text-decoration: underline;
+}
+/*修改密码弹窗样式，从index.css复制而来*/
+.yd-dialog .password-list{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    color:black;
+    margin-bottom:33px;
+}
+.yd-dialog .password-text{
+    width:180px;
+    text-align: right;
+    font-size:16px;
+    float:left;
+}
+.yd-dialog .password-list input{
+    float:left;
+    width:388px;
+    height:38px;
+    border:1px solid #d6d6d6;
+    background:none;
+    margin-left:5px;
+    color:#b0b0b0;
+    font-size:16px;
+    padding-left:10px;
+    line-height: 38px;
+}
+.yd-dialog .password-false,.yd-dialog .info-false{
+    font-size:14px;
+    color: #fc4a36;
+    margin-left: 195px;
+    height:20px;
+    text-align: justify;
+    line-height: 29px;
+    clear: both;
+}
+.yd-dialog .phone-warn{
+	margin: -10px 0 20px 185px;
+}
+.yd-dialog .password-false i,.yd-dialog .info-false i{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 7px 5px 0 0;
+	background: url(../../images/userInfo-warn.png) no-repeat;
+}
+.yd-dialog .yd-dialog-close {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    /*border-radius: 30px;*/
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    /*background: #000;*/
+    color: #676767;
+    /*border:4px solid #FFF;*/
+}
+.yd-dialog .old-sick-list{
+    display:block;
+    color:#666;
+    font-size:16px;
+    height:20px;
+    line-height: 20px;
+    width:190px;
+    overflow: hidden;
+    float:left;
+    margin:0 20px 26px 70px;
+    text-align: left;
+    text-indent:26px;
+    background:url("../../images/old-sick-circle.jpg") left no-repeat;
+}
+.yd-dialog .sick-list-check{
+    background:url("../../images/old-sick-check.jpg") left no-repeat;
+    color:#00a8ff;
+}
+.yd-overlay-box .change-pwd-success{
+    margin: 85px auto 0 auto;
+    overflow: hidden;
+}
+.yd-overlay-box .change-success-desc{
+    float: left;
+    margin-left: 30px;
+    text-align: left;
+}
+.yd-overlay-box .change-success-desc .big-title{
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    color: #4ea83b;
+}
+.yd-overlay-box .change-success-desc .pro-desc{
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    color: #777777;
+}
+.yd-overlay-box .change-success-desc .pro-desc span{
+    color: #383838;
+}
+.yd-overlay-box .change-success-line{
+    width: 89%;
+    height: 0px;
+    margin: 100px auto 0;
+    
+}
+.yd-overlay-box .change-success-pic{
+    float: left;
+}
+/*.yd-overlay-box .change-success-text{
+    width: 100%;
+    text-align: center;
+    font-size:20px;
+    font-family:"Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}*/
+.yd-overlay-box .new-load{
+    display:block;
+    position:absolute;
+    width:88px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    color:#3e78ba;
+    font-size:14px;
+    bottom:53px;
+    left:268px;
+    background: url(../../images/short-btn-bg.jpg);
+}
+.input-border{
+    border:1px solid #d9eeff;
+}
+/*卓恒*/
+.rePasswordTitle{
+    width:517px;
+    margin:-30px auto 0;
+    height:62px;
+    line-height: 62px;
+    font-size: 24px;
+    text-align: left;
+    color: #1a1a1a;
+}
+.dialog-change-password,.dialog-change-info{
+    width: 89%;
+    margin: 0 auto;
+    border-top: 1px solid #dfdfdf;
+    
+    padding: 15px 0;
+}
+.info-must {
+    color: red;
+    font-weight: normal;
+}
+.yd-dialog .password-list input,.yd-dialog .info-list input{
+    float:left;
+    width:300px;
+    height:32px;
+    border:1px solid #dfdfdf;
+    background:none;
+    margin-left:15px;
+    color:#383838;
+    font-size:16px;
+    padding-left:10px;
+    line-height: 32px;
+}
+.yd-dialog .password-list input:focus{
+    border:1px solid #3d77b9;
+}
+.yd-dialog .password-list .short-input{
+	width: 167px;
+}
+.yd-dialog .password-list .long-input{
+	width: 260px;
+}
+.yd-dialog .password-text,.yd-dialog .account-text,.yd-dialog .name-text,.yd-dialog .email-text,.yd-dialog .clinicName-text,.yd-dialog .address-text{
+    width:110px;
+    height:32px;
+    line-height: 32px;
+    text-align: right;
+    font-size:14px;
+    float:left;
+    color:#1a1a1a;
+}
+.account-input,.clinicName-text-input,.address-text-input{
+    float: left;
+    width: 200px;
+    height: 32px;
+    padding-left: 27px;
+    font-size:16px;
+    text-align: left;
+    color:#1a1a1a;
+}
+.yd-dialog .phone-text{
+	width: 168px;
+}
+.yd-dialog .password-list,.yd-dialog .account,.yd-dialog .name,.yd-dialog .email,.yd-dialog .new-again-clinicName,.yd-dialog .new-again-address{
+    width:100%;
+    margin:25px auto;
+    height:32px;
+    line-height: 32px;
+    color:black;
+}
+.yd-overlay-box .yd-dialog-main-sure {
+    /* border: 1px solid red; */
+    background: url("../../images/blue-btn.jpg") no-repeat center center;
+    color: #FFF;
+}
+.yd-dialog .send-keycode{
+	display: inline-block;
+	width: 88px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: -55px;
+	font-size: 14px;
+	color: #3e78ba;
+	text-align: center;
+	cursor: pointer;
+	background: url(../../images/short-btn-bg.jpg) no-repeat;
+}
+.yd-dialog .send-code-gray{
+	color: #757575;
+	background: url('../../images/short-btn-gray.jpg') no-repeat;
+}
+.queding{
+    cursor:pointer;
+    display: block;
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    background: url("../../images/short-btn-bg.jpg") no-repeat center center;
+    float: left;
+    font-size: 14px;
+    color: #3d77b9;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    right: 45%;
+    background: url("../../images/blue-btn.jpg") no-repeat center center;
+    color: #FFF;
+}
+.yd-dialog .yd-dialog-main{
+    text-align: center;
+}
+.change-pwd-success{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}

@@ -1,0 +1,59 @@
+.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.f-cb,.f-cbli li{zoom:1;}
+
+.g-doc{
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #656565;
+    background: #f9f9f9;
+}
+.m-hd,.m-ft{
+    width: 100%;
+    background: #3d77b9;
+}
+.m-hd .m-bd{
+    max-width: 1400px;
+    min-width: 486px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 16px 0 12px;
+}
+.m-hd .m-bd a{
+    display: block;
+    color: #FFF;
+    overflow: hidden;
+    text-indent: 12px;
+    float: left;
+    font-size:22px;
+    margin-left:20px;
+    line-height: 40px;
+}
+.m-main{
+    width: 100%;
+    /*background: url("../../images/login-bg.jpg") repeat-y center top;*/
+}
+.m-main .m-bd{
+    position: relative;
+    max-height: 626px;
+    max-width: 1400px;
+    min-width: 486px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.m-main .m-bd .u-sloga{
+    padding-left: 60px;
+}
+/* ft */
+.m-ft{
+    height:20px;
+    padding: 15px 0;
+    background: #666;
+}
+.m-ft p{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}

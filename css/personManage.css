@@ -1,0 +1,175 @@
+.cloudClinic-treatmentSet{
+    font-family: "Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+.record-pop {
+    display: none;
+    position: absolute;
+    top: 57px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+}
+.record-success{
+    background:#6fcc47;
+}
+.success-mark-txt{
+    height:26px;
+    padding:0 14px;
+    margin-left:-5px;
+    background: url("../../images/error_success.png") no-repeat center center;
+}
+.treatmentSet-new{
+    font-size: 14px;
+}
+
+.treatment-list .edit-exam{
+    margin-right:4px;
+    color:#3d77b9;
+}
+.treatment-list .edit-exam:after{
+    content: '|';
+    padding-left:6px;
+    color:#3d77b9;
+}
+.treatment-list .dele-exam{
+    color:#3d77b9;
+}
+
+.treatmentSet-top{
+    margin:0 auto;
+    padding:10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.treatmentSet-new{
+    font-weight: normal;
+}
+
+
+/*table主体*/
+
+
+.treatment-list{
+    overflow: hidden;
+    margin-top:73px;
+}
+.treatment-list table thead th{
+    height: 50px;
+    vertical-align: middle;
+    background: #f5f5f5;
+    border-top:1px solid #dfdfdf;
+    border-bottom:none !important;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 14px;
+    color:#383838;
+    font-weight: bold;
+}
+.treatment-list table tbody td.little-width{
+    max-width: 112px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.treatment-list table tbody td.big{
+    max-width: 130px!important;
+    /*white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;*/
+}
+.treatment-list table tbody td.small{
+  max-width: 70px!important;  
+}
+.treatment-list table tbody td a{
+    vertical-align: middle;
+    margin:auto;
+    width:16px ;
+    height:16px;
+     /*width:17%;*/
+
+}
+.treatment-list table tbody td a.imgICon{
+   
+    background:url("../../images/checkIcon.png") no-repeat center center;
+   background-size: 16px;
+   display:block;
+   cursor: auto;
+}
+
+/*.treatment-list table tbody td a img{
+    margin:0 auto;
+}*/
+/*
+.treatment-overlay{
+    width:90%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.treatment-overlay p{
+    display: block;
+    line-height: 40px;
+    margin:0 0 24px 0;
+}
+.treatment-overlay label{
+    display: inline-block;
+    width:30%;
+    height:40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: left;
+}
+.treatment-overlay thead th{
+    text-align: left;
+}
+.treatment-overlay input{
+    display: inline-block;
+    width:37%;
+    height:32px;
+    line-height: 32px;
+    border: 1px solid #dfdfdf;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #777;
+}
+.treatment-overlay .overlay-error{
+    color:red;
+    font-size: 12px;
+}*/
+/*
+.yd-dialog-main-sure{
+    background: #ccc !important;
+}*/
+/*重置overlay样式*/
+.yd-dialog .yd-dialog-main-cancel,.yd-dialog .yd-dialog-main-sure{
+    bottom:56px !important;
+}
+.yd-dialog-main p{
+    width:80%;
+    margin:25px auto 0 auto;
+    line-height: 21px;
+    word-break:break-all;
+}
+.Com_1000,.Com_4000,.Com_5000,.Com_900{
+    max-width:50px;
+}
+.Com_6000,.Com_3000{
+    min-width:80px;
+}
+.doIt{
+    min-width:100px;
+}
+.Com_900,.Com_1000,.Com_2000,.Com_3000,.Com_4000,.Com_5000,.Com_6000{
+    text-align: center!important;
+    text-indent: 0!important;
+}

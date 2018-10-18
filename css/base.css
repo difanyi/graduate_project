@@ -1,0 +1,1269 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0;padding:0}
+body,button,input,select,textarea {font-family:"Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+address,cite,dfn,em,var {font-style:normal}
+code,kbd,pre,samp {font-family:courier new,courier,monospace}
+small {font-size:12px}
+ol,ul {list-style:none}
+a {text-decoration:none}
+a:hover {text-decoration:none}
+/*sup {vertical-align:text-top}*/
+/*sub {vertical-align:text-bottom}*/
+legend {color:#000}
+fieldset,img {border:0}
+button,input,select,textarea {font-size:100%}
+table {border-collapse:collapse;border-spacing:0;}
+iframe{border: none !important;}
+ 
+.f-clrfix{zoom:1;}
+.f-clrfix:after{content:''; display:block; height:0; clear:both;}
+.f-ct{margin: 0 auto;}
+.f-ps{position: relative;}
+.f-inbk{vertical-align: middle;
+    display: -moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;}
+.f-ov{overflow: hidden;}
+img{vertical-align: top; }
+a{background: url("about:blank");cursor: pointer;}
+i,em{font-style: normal;}
+:focus{
+    outline: none;
+}
+input{
+    background-color: #fff;
+}
+input:focus,textarea:focus,select:focus{
+    outline: none;
+    border: 1px solid #3d77b9;
+}
+.cloudClinic-body{
+    width:100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    position: fixed;
+}
+.placeholder{
+    color: #ccc !important;
+}
+
+/*带连接 || 可点击 的按钮样式*/
+.link-edit{
+    color: #3d77b9;
+    cursor: pointer;
+    font-family: "Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+.link-edit:hover{
+    text-decoration: underline;
+}
+
+/**
+** 页面按钮
+** 2-4个中文字符
+*/
+.short-btn{
+    display: inline-block;
+    width:88px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../../images/short-btn-bg.jpg") no-repeat center center;
+    font-size: 14px;
+}
+/**
+** 页面按钮
+** 6个中文字符
+*/
+.long-btn{
+    display: inline-block;
+    width:114px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../../images/long-btn-bg.jpg") no-repeat center center;
+    font-size: 14px;
+}
+
+/*翻页部分样式*/
+.paging-page{
+    margin-top: 16px;
+    padding-bottom: 16px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #1a1a1a;
+    background: #ffffff;
+}
+.page-num{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+    vertical-align: top;
+}
+.page-arrow{
+    color: #959595;
+    border-radius:4px;
+    margin: 0 2px;
+    text-align: center;
+}
+.page-arrow .page-mark{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    background: url("../../images/page-arrow.jpg") no-repeat 0 0;
+}
+.page-arrow.page-prev,.page-arrow.page-next,.page-arrow.page-op,.page-arrow.page-ed{
+    color: #3d77b9;
+}
+.page-first .page-mark{background-position: 0 0;}
+.page-up .page-mark{background-position: -20px 0;}
+.page-down .page-mark{background-position: -40px 0;}
+.page-last .page-mark{background-position: -60px 0;}
+
+.page-first.page-op  .page-mark{background-position: 0 -20px;}
+.page-up.page-prev .page-mark{background-position: -20px -20px;}
+.page-down.page-next .page-mark{background-position: -40px -20px;}
+.page-last.page-ed .page-mark{background-position: -60px -20px;}
+.page-sub{
+    background: #3d77b9;
+    color: #ffffff;
+    border-color: #3d77b9;
+}
+.page-num-statistics{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 32px;
+    color: #383838;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.page-num-size{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0 8px 0 4px;
+    line-height: 30px;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    vertical-align:top;
+    cursor: pointer;
+}
+.page-num-size[disabled],.page-num-size:disabled{
+    color: #383838;
+    background: #ffffff url(../../images/arrow.jpg) no-repeat 95% 50%;
+}
+.page-num-size.page-active{
+    border: 1px solid #3d77b9;
+}
+.page-num-select{
+    display: none;
+    position: absolute;
+    width: 42px;
+    left: 60px;
+    bottom: 31px;
+    border: 1px solid #AAA;
+    background: #fff;
+    line-height: 28px;
+}
+.page-num-select li{
+    cursor: pointer;
+}
+.page-num-select li.page-active{
+    background: #eee;
+}
+.page-num-select li:hover{
+    background: #ddd;
+}
+.page-num-f{
+    border-radius: 4px 0 0 4px;
+    margin-left: 4px;
+}
+.page-num-e{
+    border-radius:0 4px 4px 0;
+    margin-right: 4px;
+}
+.page-num-f.page-num-e{
+    border-radius:4px;
+    margin: 0 4px;
+}
+
+/*验证*/
+input.red-ipt{
+    border: 1px solid #ffb2b2 !important;
+}
+.red-ipt{
+    border: 1px solid #ffb2b2;
+}
+.record-pop {
+    display: none;
+    position: fixed;
+    top: 122px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    /*height: 30px;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    z-index: 9999;
+    background: #6fcc47;
+}
+.record-error{
+    background: #f68b8b;
+}
+.record-error-mark{
+    vertical-align: middle;     display: -moz-inline-stack;     display:inline-block;     zoom:1;     *display:inline;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/index-sprite1.png") no-repeat -80px -80px;
+}
+.record-success-mark{
+    vertical-align: middle;     display: -moz-inline-stack;     display:inline-block;     zoom:1;     *display:inline;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/error_success.png") no-repeat 0 0;
+}
+
+/* loading */
+.loading-pop{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    text-align: center;
+}
+.loading-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+}
+.loading-pop .loading-img{
+    position: absolute;
+    top:40%;
+    left:50%;
+    width:63px;
+    height:111px;
+}
+
+
+.flt {
+    float:left;
+    
+}
+.fltr,.flt-box .fltr {
+    float:right;
+    display:inline;
+}
+.c-flt {
+    width:100%;
+    height:1px;
+    clear:both;
+}
+.flt-box div,.flt-box ul,.flt-box li,.flt-box label,.flt-box span,.flt-box a,.flt-box b,.flt-box i,.flt-box p,.flt-box input,.flt-box select,.flt-box textarea {
+    float:left;
+    display:inline;
+}
+.link-btn {
+    display:block;
+    text-align:center;
+    border:1px solid #dfdfdf;
+}
+/**common-header-style**/
+.cloudClinic-header{
+    width:100%;
+    min-width: 1275px;
+    background-color: #3d77b9;
+    position:relative;
+}
+.cloudClinic-header .header-content{
+    width:96%;
+    height: 62px;
+    line-height: 62px;
+    margin:0 auto;
+    min-width:1050px;
+}
+.cloudClinic-header .header-content-logo{
+    height: 62px;
+    color: #FFF;
+    overflow: hidden;
+    text-indent: 12px;
+    float: left;
+    font-size:22px;
+    margin-right: 30px;
+    max-width: 350px;
+}
+.cloudClinic-header .content-logo-pic{
+    margin-top: 10px;
+    height: 44px;
+    display:block;
+    float:left;
+}
+.cloudClinic-header .header-nav{
+    float: left;
+    height: 62px;
+    line-height: 62px;
+}
+.cloudClinic-header .nav-list{
+    float: left;
+    font-size: 16px;
+    color: #c1cfe5;
+    /*width: 117px;*/
+    height:62px;
+    padding: 0 20px;
+    text-align: center;
+    background: #3d77b9;
+}
+.cloudClinic-header .nav-check{
+    background: #2f6aae;
+    color:#fff;
+}
+.cloudClinic-header .header-user{
+    margin-left:90%;
+    position:relative;
+    height: 62px;
+	z-index:999;
+}
+.cloudClinic-header .user-name{
+    color:white;
+    font-size:15px;
+    display:inline-block;
+    margin-right: 15px;
+	padding-right:20px;
+    max-width: 50px;
+    height:65px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+	float: center;
+}
+.cloudClinic-header  .user-mark{
+    width: 20px;
+    height: 18px;
+    background: url("../../images/index-sprite1.png") no-repeat 0 0;
+    margin-right: 4px;
+    float: left;
+    margin-top: 22px;
+}
+.user-name-box {
+    position: absolute;
+    background: white;
+    width:98px;
+    border: 1px solid #EEE;
+    display:none;
+    right: 0;
+    top:50px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+    z-index:999;
+}
+.user-name-box a{
+    color:#6C6C6C;
+    display:block;
+    height:32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+}
+.user-name-box a:hover{
+    color:#0096ff;
+}
+.wx-box,.sysmsg-icon{
+    float: right;
+    position: relative;
+    margin-right: 40px;
+    height: 62px;
+    width: 20px;
+}
+.sysmsg-icon{
+    margin-right: 10px!important;
+}
+.userhelp-icon{
+    float: right;
+    position: relative;
+    margin-right: 15px!important;
+    height: 62px;
+    width: 20px;
+}
+.wx-icon,.sysmsg-img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.userhelp-img{
+     vertical-align: middle;
+     cursor: pointer;
+}
+.ewm-box{
+    width: 138px;
+    height: 150px;
+    position: absolute;
+    z-index: 999;
+    left: -55px;
+    top: 50px;
+}
+.sysmsg-icon .new-msg-num{
+    width:16px;
+    height:16px;
+    line-height: 16px;
+    text-align: center;
+    background: url("../../images/new-msg-bg.png");
+    position: absolute;
+    top:18px;
+    left:5px;
+    font-size: 10px;
+    cursor: pointer;
+    color:#fff;
+    display: none;
+}
+
+@media screen and (max-width: 1230px) {
+    .wx-box,.sysmsg-icon{
+        float: right;
+        position: relative;
+        margin-right: 30px;
+    }
+}
+@media screen and (min-width:1350px){
+    .cloudClinic-header a.nav-list{
+        padding: 0;
+        width: 110px;
+    }
+}
+.cloudClinic-main {
+    position:relative;
+    width:100%;
+    min-width: 1280px;
+    min-height:400px;
+}
+div.page-main-content {
+    position:absolute;
+    left: 165px;
+    top:0;
+    min-width:1110px;
+    height:100%;
+    float: none;
+}
+.main-content-inner {
+    /*  width:92.8%;
+      overflow: hidden;
+      margin:0 auto;*/
+    position:relative;
+    width: 92.8%;
+    min-width:1030px;
+    padding:0 3.6%;
+    height:100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    font-size: 14px;
+}
+/**common-left-nav-style**/
+.cc-left-nav {
+    width:163px;
+    height:100%;
+    min-height:400px;
+    background-color:#f5f5f5;
+    border-right:1px solid #dfdfdf;
+}
+.cc-left-nav a {
+    float:left;
+    width:100%;
+    height:48px;
+    line-height:48px;
+    color:#383838;
+    font-size:16px;
+    border-bottom:1px solid #dfdfdf;
+}
+.cc-left-nav .cc-left-mark {
+    color: #3d77b9;
+    background-color:#fff;
+    border-right:1px solid #fff;
+}
+.cc-left-nav span{
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin: 0 13px;
+    vertical-align: middle;
+    background: url("../../images/index-sprite1.png") no-repeat 0 0;
+}
+.cc-left-nav .ln-i-orderMana{
+    background-position: 0 -560px;
+}
+.cc-left-mark .ln-i-orderMana {
+    background-position: 0 -600px;
+}
+.cc-left-nav .ln-i-userInfo{
+    background-position: -120px -200px;
+}
+.cc-left-nav .ln-i-clinicRegisterInfo {
+    background-position: 0 -320px;
+}
+.cc-left-mark .ln-i-clinicRegisterInfo {
+    background-position: 0 -360px;
+}
+.cc-left-nav .ln-i-personManage {
+    background-position: -40px -320px;
+}
+.cc-left-mark .ln-i-personManage {
+    background-position: -40px -360px;
+}
+.cc-left-nav .ln-i-departmentManage {
+    background-position: -80px -320px;
+}
+.cc-left-mark .ln-i-departmentManage {
+    background-position: -80px -360px;
+}
+.cc-left-nav .ln-i-treatmentSet {
+    background-position: -80px -200px;
+}
+.cc-left-mark .ln-i-treatmentSet {
+    background-position: -40px -200px;
+}
+.cc-left-nav .ln-i-systemSet {
+    background-position: -80px -640px;
+}
+.cc-left-mark .ln-i-systemSet {
+    background-position: -80px -680px;
+}
+.cc-left-nav .ln-i-messageSet {
+    background-position: -120px -713px;
+}
+.cc-left-mark .ln-i-messageSet {
+    background-position: -120px -760px;
+}
+.cc-left-nav .ln-i-registrationFee {
+    background-position: -81px -120px;
+}
+.cc-left-mark .ln-i-registrationFee {
+    background-position: -120px -160px;
+}
+.cc-left-nav .ln-i-allLogQuery {
+    background-position: 0 -240px;
+}
+.cc-left-mark .ln-i-allLogQuery {
+    background-position: 0 -280px;
+}
+.cc-left-nav .ln-i-allSaleDrug {
+    background-position: -40px -240px;
+}
+.cc-left-mark .ln-i-allSaleDrug {
+    background-position: -40px -280px;
+}
+.cc-left-nav .ln-i-allCureItem {
+    background-position: -80px -240px;
+}
+.cc-left-mark .ln-i-allCureItem {
+    background-position: -80px -280px;
+}
+.cc-left-nav .ln-i-allAddCosts {
+    background-position: -120px -240px;
+}
+.cc-left-mark .ln-i-allAddCosts {
+    background-position: -120px -280px;
+}
+.cc-left-nav .ln-i-allRegister{
+    background-position: -80px -740px;
+}
+.cc-left-mark .ln-i-allRegister{
+    background-position: -80px -440px;
+}
+.cc-left-nav .ln-i-allWorkCosts {
+    background-position: 0 -681px;;
+}
+.cc-left-mark .ln-i-allWorkCosts {
+    background-position: 0 -713px;;
+}
+.cc-left-nav .ln-i-recipelList {
+    background-position: -120px -320px;
+}
+.cc-left-mark .ln-i-recipelList {
+    background-position: -120px -360px;
+}
+.cc-left-nav .ln-i-clinicRecipel {
+    background-position: -120px -320px;
+}
+.cc-left-mark .ln-i-clinicRecipel {
+    background-position: -120px -360px;
+}
+.cc-left-nav .ln-i-adviceList {
+    background-position: 0 -400px;
+}
+.cc-left-mark .ln-i-adviceList {
+    background-position: 0 -440px;
+}
+.cc-left-nav .ln-i-drugList {
+    background-position: -80px -400px;
+}
+.cc-left-mark .ln-i-drugList {
+    background-position: 0 -200px;
+}
+.cc-left-nav .ln-i-drugHousing {
+    background-position: -120px -400px;
+}
+.cc-left-mark .ln-i-drugHousing {
+    background-position: -120px -440px;
+}
+.cc-left-nav .ln-i-stockManage {
+    background-position: 0 -480px;
+}
+.cc-left-mark .ln-i-stockManage {
+    background-position: 0 -520px;
+}
+.cc-left-nav .ln-i-orderEarning {
+    background-position: -40px -480px;
+}
+.cc-left-mark .ln-i-orderEarning {
+    background-position: -40px -520px;
+}
+.cc-left-nav .ln-i-dateEarning {
+    background-position: -80px -480px;
+}
+.cc-left-mark .ln-i-dateEarning {
+    background-position: -80px -521px;
+}
+.cc-left-nav .ln-i-storageRecord {
+    background-position: -120px -480px;
+}
+.cc-left-mark .ln-i-storageRecord {
+    background-position: -120px -520px;
+}
+.cc-left-nav .ln-i-noChargeList {
+    background-position: -120px -80px;
+}
+.cc-left-mark .ln-i-noChargeList {
+    background-position: -40px -160px;
+}
+.cc-left-nav .ln-i-hasChargeList {
+    background-position: -40px -120px;
+}
+.cc-left-mark .ln-i-hasChargeList {
+    background-position: -80px -160px;
+}
+.cc-left-nav .ln-i-hasRefundList {
+    background-position: -80px -120px;
+}
+.cc-left-mark .ln-i-hasRefundList {
+    background-position: -120px -160px;
+}
+.cc-left-nav .ln-i-purchase {
+    background-position: -120px -120px;
+}
+.cc-left-mark .ln-i-purchase {
+    background-position: 0 -160px;
+}
+.cc-left-nav .ln-i-newRecord {
+    background-position: -40px 0;
+}
+.cc-left-mark .ln-i-newRecord {
+    background-position: -40px -40px;
+}
+.cc-left-nav .ln-i-fixSearch {
+    background-position: -80px 0;
+}
+.cc-left-mark .ln-i-fixSearch {
+    background-position: -80px -39px;
+}
+
+.cc-left-nav .ln-i-newPrescription {
+    background-position: -40px -560px;
+}
+.cc-left-mark .ln-i-newPrescription {
+    background-position: -40px -600px;
+}
+
+.cc-left-nav .ln-i-orderList {
+    background-position: 0 -560px;
+}
+.cc-left-mark .ln-i-orderList {
+    background-position: 0 -600px;
+}
+
+.cc-left-nav .ln-i-registration{
+    background-position: 0 -740px;
+}
+.cc-left-mark .ln-i-registration{
+    background-position: 0 -770px;
+}
+
+/*用户帮助图标*/
+.cc-left-nav .ln-i-helpofRegistration{
+    background-position: 0 -740px;
+}
+.cc-left-mark .ln-i-helpofRegistration{
+    background-position: 0 -770px;
+}
+.cc-left-nav .ln-i-helpofPatient {
+    background-position: -80px -560px;
+}
+.cc-left-mark .ln-i-helpofPatient {
+    background-position: -80px -600px;
+}
+
+.cc-left-nav .ln-i-helpofRecord {
+    background-position: 0 -240px;
+}
+.cc-left-mark .ln-i-helpofRecord {
+    background-position: 0 -280px;
+}
+
+.cc-left-nav .ln-i-helpofMedicine {
+    background-position: -40px -240px;
+}
+.cc-left-mark .ln-i-helpofMedicine {
+    background-position: -40px -280px;
+}
+
+.cc-left-nav .ln-i-helpofCharge {
+    background-position: -40px -640px;
+}
+.cc-left-mark .ln-i-helpofCharge {
+    background-position: -40px -680px;
+}
+
+.cc-left-nav .ln-i-helpofStatistic {
+    background-position: -120px -320px;
+}
+.cc-left-mark .ln-i-helpofStatistic {
+    background-position: -120px -360px;
+}
+
+.cc-left-nav .ln-i-helpofManage {
+    background-position: -120px -560px;
+}
+.cc-left-mark .ln-i-helpofManage {
+    background-position: -120px -600px;
+}
+
+.cc-left-nav .ln-i-helpofPrint {
+    background-position: -120px -480px;
+}
+.cc-left-mark .ln-i-helpofPrint {
+    background-position: -120px -520px;
+}
+/*系统消息*/
+.cc-left-nav .ln-i-newMessage {
+    background-position: -120px -640px;
+}
+.cc-left-mark .ln-i-newMessage {
+    background-position: -120px -680px;
+}
+
+.cc-left-nav .ln-i-allMessage {
+    background-position: -40px -713px;
+}
+.cc-left-mark .ln-i-allMessage {
+    background-position: -40px -760px;
+}
+
+.cc-left-nav .ln-i-starMessage {
+    background-position: -80px -713px;
+}
+.cc-left-mark .ln-i-starMessage {
+    background-position: -80px -760px;
+}
+/*管理系统*/
+.cc-left-nav .ln-i-businessProfile {
+    background-position: 0 -681px;;
+}
+.cc-left-mark .ln-i-businessProfile {
+    background-position: 0 -713px;;
+}
+.cc-left-nav .ln-i-clinicProfile {
+    background-position: -80px -240px;
+}
+.cc-left-mark .ln-i-clinicProfile {
+    background-position: -80px -280px;
+}
+.cc-left-nav .ln-i-drugSaleStatistics {
+    background-position: -40px -240px;
+}
+.cc-left-mark .ln-i-drugSaleStatistics {
+    background-position: -40px -280px;
+}
+.cc-left-nav .ln-i-clinicDrugStatistics {
+    background-position: 0 -240px;
+}
+.cc-left-mark .ln-i-clinicDrugStatistics {
+    background-position: 0 -280px;
+}
+.cc-left-nav .ln-i-clinicBoughtStatistics {
+    background-position: -120px -240px;
+}
+.cc-left-mark .ln-i-clinicBoughtStatistics {
+    background-position: -120px -280px;
+}
+.cc-left-nav .ln-i-clinicOrderStatistics {
+    background-position: -120px -400px;
+}
+.cc-left-mark .ln-i-clinicOrderStatistics {
+    background-position: -120px -440px;
+}
+.cc-left-nav .ln-i-memberManage {
+    background-position: -40px -320px;
+}
+.cc-left-mark .ln-i-memberManage {
+    background-position: -40px -360px;
+}
+.cc-left-nav .ln-i-systemManage {
+    background-position: -80px -640px;
+}
+.cc-left-mark .ln-i-systemManage {
+    background-position: -80px -680px;
+}
+/*系统消息*/
+.message-float-floor{
+    height: 49px;
+    line-height: 49px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.J_allClear{
+    margin-left:15px;
+}
+.newMessage-list{
+    margin-top:50px;
+    line-height: 43px;
+}
+.new-message,.line-border{
+    width:100%;
+    height:43px;
+    line-height: 43px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.line-border{
+    line-height: 55px;
+    padding: 0 5px;
+}
+.top-line{
+    color: #fc4a36;
+}
+.attop{
+    display: inline-block;
+    width: 18px;
+    background: url("../../images/attop.png") no-repeat center center;
+    height: 43px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.new-message:hover{
+    background: #f7f7f7;
+}
+.new-message-icon,.read-message-icon{
+    display: inline-block;
+    width:15px;
+    height:43px;
+    background: url("../../images/new-msg-icon.png") no-repeat center center;
+    margin:0 10px;
+    vertical-align: top;
+}
+.read-message-icon{
+    background: url("../../images/read-msg-icon.png") no-repeat center center;
+}
+.message-title,.message-content,.message-date{
+    display: inline-block;
+    font-size: 14px;
+    color:#333;
+}
+.message-content{
+    color:#888;
+}
+.flt-r{
+    float: right;
+    padding-right: 20px;
+}
+.message-date{
+    color: #666;
+}
+.star-box,.delete-box{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    line-height: 15px;
+    margin: 0 30px;
+}
+.delete-box{
+    margin:0;
+}
+.J_star{
+    display: block;
+    height:15px;
+    cursor: pointer;
+    background: url("../../images/empty-star.png");
+}
+.message-star,.message-delete{
+    width:15px;
+    height:15px;
+    display: inline-block;
+    background: url("../../images/star.png");
+    cursor: pointer;
+}
+.delete-box{
+    width:16px;
+    height:16px;
+    line-height: 16px;
+}
+.message-delete{
+    width:16px;
+    height:16px;
+    background: url("../../images/deleteIcon.png");
+}
+
+/**common-left-list-style**/
+.nav-today-list{
+    width:100%;
+    float: left;
+}
+.today-list-title{
+    height:40px;
+    line-height: 40px;
+    border-bottom:1px dashed #dfdfdf;
+    overflow: hidden;
+    text-align: center;
+    font-size:16px;
+    margin-top: 24px;
+}
+.today-list-load{
+    width:100%;
+    height:125%;
+    background:#e7eaf1;
+    z-index:99;
+}
+.loading-main{
+    position:relative;
+    width:148px;
+    height:42px;
+    padding:3px;
+    line-height: 42px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    background:#cfd2d4 url("../../images/load_icon.gif") left no-repeat;
+    background-position:12px;
+    text-indent:32px;
+    margin:50px auto;
+}
+.today-list-data{
+    width:164px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.today-list-data .today-list-item,.today-list-data .today-list-none{
+    float: none;
+    color:#757575;
+    font-size:14px;
+    height:38px;
+    line-height:38px;
+    display:block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #f5f5f5;
+}
+.today-list-none{
+    margin-left:34px;
+}
+.today-list-data .today-list-item:hover,.today-list-data .today-list-item.hover{
+    color:#3d77b9;
+    width: 100%;
+    border-right: 1px solid #ffffff;
+    border-top:1px solid  #dfdfdf;
+    border-bottom:1px solid  #dfdfdf;
+}
+.today-list-data .today-list-item.hover{
+    background:#ffffff !important;
+}
+.today-list-data .today-list-item:hover{
+    background:#f9f9f9;
+}
+.today-item-check{
+    background:#d9eeff;
+    color:#0096ff;
+    padding-left: 10px;
+}
+.today-list-item i{
+    font-style: normal;
+    display:inline-block;
+    text-align: left;
+    overflow: hidden;
+}
+.today-list-item .item-key{
+    text-align: right;
+    width:32px;
+}
+.today-list-item .item-name{
+    width: 62px;
+    padding-left: 10px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.today-list-item .item-age {
+    text-align: center;
+    width: 45px;
+}
+.today-list-item .item-time{
+    /*display:inline;*/
+}
+/*二维码样式*/
+.bottom-ewm{
+    position: absolute;
+    bottom: 15px;
+    left:15px;
+}
+/**common-right-style**/
+/*通用样式部分*/
+.fixed-panel{
+    position: absolute;
+    width: 92.8%;
+    left: 3.6%;
+    color: #1a1a1a;
+    font-size: 14px;
+    background: #fff;
+    z-index:100;
+}
+.top-fixed {
+    top:0;
+}
+.bottom-fixed {
+    bottom:0;
+}
+.page-main-panel {
+    width:100%;
+}
+input {
+    border:1px solid #dfdfdf;
+    padding:0 6px;
+}
+/*顶部固定条工具栏*/
+.tool-panel {
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    padding:14px 0;
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+    min-width: 1030px;
+}
+.tool-panel input{
+    border: 1px solid #dfdfdf;
+}
+.tool-panel input:focus {
+    border: 1px solid #3d77b9;
+}
+.tool-panel .select-arrow{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 35px;
+    background: url("../../images/arrow.jpg") no-repeat 8px center #fff;
+    z-index: 99;
+}
+.tool-panel .success-alert{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 468px;
+    width: 200px;
+    height: 30px;
+    background: #6fcc47;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.tool-panel .success-alert-mark {
+    height:26px;
+    padding:0 14px;
+    background: url("../../images/error_success.png") no-repeat center center;
+}
+.tool-panel .calendars #start-day,.tool-panel .calendars #end-day,.calendar-input{
+    min-width: 100px;
+    width:32%;
+    background: url("../../images/arrow.jpg") no-repeat 94%;
+    padding:0 6px;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.tool-panel .ui-select-input{
+    line-height: 35px;
+}
+/*子页面tab*/
+.son-panel-tab {
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+    min-width: 1030px;
+}
+.son-panel-tab a{
+    float:left;
+    display:inline;
+    width:11%;
+    margin-right:2%;
+    height:45px;
+    line-height:45px;
+    color:#383838;
+    border-bottom:4px solid #fff;
+    text-align:center;
+}
+.son-panel-tab .cur-son-tab {
+    color:#3d77b7;
+    border-color:#3d77b7;
+}
+
+/*通用表格样式*/
+.common-table {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    margin-bottom:10px;
+}
+.common-table tr {
+    height:49px;
+}
+.common-table td {
+    text-align:center;
+    overflow:hidden;
+    border-bottom:1px solid #efefef;
+}
+.common-table .com-tb-header {
+    width:100%;
+    height:49px;
+    line-height:49px;
+    background-color:#f5f5f5;
+}
+/*基础表格样式*/
+.treatment-list{
+    width:100%;
+    overflow: hidden;
+    margin:10px auto;
+    font-size: 14px;
+}
+.table-list .table-title{
+    height: 50px;
+    vertical-align: middle;
+    background: #f5f5f5;
+    border-top:1px solid #dfdfdf;
+    border-bottom:none !important;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 14px;
+    color:#383838;
+    font-weight: bold;
+    font-family: microsoft yahei, sans-serif;
+}
+.table-list tr{
+    /*border-bottom: 1px solid #ccc;*/
+    /*border-left:1px solid #ccc;*/
+}
+.table-list td{
+    height:48px;
+    vertical-align: middle;
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    text-indent: 20px;
+}
+.improve-outer{
+    position:fixed;
+    width:116px;
+    height:134px;
+    right:50px;
+    bottom:50px;
+    z-index:102;
+}
+.closeBtn{
+    cursor:pointer;
+    float: right;
+    display: block;
+    width:18px;
+    height:18px;
+    position:relative;
+    z-index:103;
+    background: url('../../images/closeBtn.png') no-repeat center top;
+}
+.improve-link{
+    float: left;
+    display: block;
+    width:116px;
+    height:116px;
+    margin-top: -20px;
+}
+.long-btn:active{
+    color: #fff;
+    background: url(../../images/long-btn-bg.jpg) no-repeat center bottom;
+}
+.short-btn:active{
+    color: #fff;
+    background: url(../../images/short-btn-bg.jpg) no-repeat center bottom;
+}
+
+.menu{    
+    margin:0px auto;    
+    width:404px;    
+    height:65px;    
+    }    
+
+.menu ul{    
+    margin:0px;    
+    padding:0px;    
+    }   
+	
+.menu ul li{    
+    position:relative;    
+    float:left;    
+    list-style:none;    
+    padding:2px;    
+
+    font-size:14px;    
+    width:98px;    
+    text-align: center;    
+    margin:0px;
+    background:#3d77b9;  
+	
+    }    
+
+.menu ul li ul{    
+    display:none;    
+    }    
+  
+.menu ul li:hover ul{    
+    display:block;    
+    position: absolute; left: 0px; top: 65px;    
+    }   

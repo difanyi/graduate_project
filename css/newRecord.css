@@ -1,0 +1,1865 @@
+.main-content-inner{
+    width: 100%;
+    padding: 0;
+}
+b{
+    font-weight: normal;
+}
+button, input, select, textarea,.gr-border{
+    border:#dfdfdf 1px solid;
+    overflow-y: hidden;
+    padding: 0;
+}
+.same-line{
+	display: inline-block;
+}
+.main-header{
+    margin-top:20px;
+}
+.cloudClinic-box .first-line,.cloudClinic-box .second-line{
+	width:642px;
+	margin:0 auto;
+	height:32px;
+	line-height: 32px;
+	font-size: 14px;
+    position: relative;
+}
+.cloudClinic-box .second-line{
+    margin-top:24px;
+}
+
+.single-information{
+   /* width:330px;*/
+    display: inline-block;
+    padding-left: 4px;
+}
+.single-information-age{
+    margin-right:73px;
+}
+.phone{
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.info-must{
+	color: red;
+}
+.cloudClinic-box .first-line .single-information .zh-ipt{
+	margin:0 10px;
+	padding:0 15px;
+}
+.cloudClinic-box .first-line .single-information .patient-name{
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    word-break: break-all;
+    vertical-align: top;
+}
+.cloudClinic-box .first-line .single-information .patient-name:focus{
+    border: 1px solid #3d77b9;
+}
+.cloudClinic-box .first-line .single-information .patient-name.disabled{
+    background: #f5f5f5;
+}
+.cloudClinic-box .first-line .sex{
+    width:200px;
+    height:32px;
+    margin-left:55px;
+    vertical-align: top;
+
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+}
+
+.cloudClinic-box .first-line .single-information .sex-radio{
+    width:17px;
+    height:17px;
+    line-height: 32px;
+    background: url(../images/unselect.jpg) no-repeat center;
+    display: inline-block;
+    margin-right:5px;
+    margin-left:25px;
+    vertical-align: -5%;
+    
+    cursor:pointer;
+}
+
+.cloudClinic-box .first-line .single-information .sex-cur{
+    width:17px !important;height:17px !important;
+    background: url(../images/select.jpg) no-repeat center;
+    vertical-align: -5%;
+
+}
+.cloudClinic-box .first-line .single-information .sex-cur.sex-disable{
+    width:17px !important;height:17px !important;
+    background: url(../images/disabled.jpg) no-repeat center;
+    vertical-align: -5%;
+
+}
+.cloudClinic-box .second-line .single-information .patient-age{
+    width:156px;
+    height:32px;
+    line-height: 32px;
+    margin-left:10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+/* 222  */
+.first-patient-history{
+    width:648px;
+    line-height: 34px;
+    margin:24px auto 0 auto;
+    font-size: 14px;
+}
+.first-patient-history .info-must{
+    color: red;
+}
+
+.first-patient-history .patient-old{
+    width:566px;
+    line-height: 32px;
+    padding:0 10px;
+    overflow: hidden;
+    word-break: break-all;
+    min-height: 32px;
+}
+.first-patient-history .patient-old-text{
+    display: none;
+}
+/* 333  */
+.patient-history,.patient-history2 {
+    width:648px;
+    line-height: 34px;
+    margin:0 auto;
+    font-size: 14px;
+}
+.patient-history .zh-ipt2{
+    width:566px;
+    line-height: 32px;
+    padding:0 10px;
+    overflow: hidden;
+    word-break: break-all;
+    min-height:32px;
+}
+.patient-history2 .zh-ipt2{
+    width:566px;
+    line-height: 32px;
+    min-height:32px;
+    padding:0 10px;
+    color:#000;
+}
+/*     mid     */
+
+.title{
+    float:left;
+    width:400px;
+    display: inline-block;
+}
+.problem{
+    float:left;
+    width:560px;
+    display: inline-block;
+}
+.main-mid .two-line{
+    width:665px;
+    margin:24px auto 5px;
+    font-size: 14px;
+}
+.main-mid .dif-width{
+    width:682px;
+    padding-left: 8px;
+}
+.main-mid .two-line .check-up{
+     width:118px;
+}
+.main-mid .two-line .check-up1{
+    /*width:212px;*/
+}
+.main-mid .two-line .check-up2{
+     width:137px;
+ }
+.main-mid .two-line .same-line{
+    height:37px;
+    line-height: 37px;
+    display: inline-block;
+}
+.main-mid .two-line .check-up .zh-ipt{
+    width:48px;
+    height:32px;
+    line-height: 32px;
+    margin:0 5px;
+    text-align: center;
+}
+.main-mid .two-line .check-up1 .zh-ipt1{
+    width: 48px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 4px;
+}
+.main-mid .two-line .other{
+    width:100%;
+    height:34px;
+    line-height: 34px;
+    position: relative;
+    clear: both;
+    display: inline-block;
+    margin-top:25px;
+}
+.main-mid .two-line .other .zh-ipt{
+    width:576px;
+    padding:0 5px;
+    height:32px;
+    line-height: 32px;
+    margin-left:68px;
+}
+.t_area{
+    width:300px;
+    overflow-y:visible
+}
+/* 诊断 */
+.main-mid2{position: relative;zoom: 1;height: auto;}
+.main-mid2 .main-mid2-title{
+    width:708px;
+    margin:25px auto;
+    padding-left:25px;
+    height:60px;
+    line-height: 60px;
+    font-size: 19px;
+    background: #c8e6ff;
+    font-weight: bold;
+}
+.main-mid2 .main-mid2-title .info-must{
+    color: red;
+}
+.main-mid2 .there-line{
+    width:641px;
+    margin:24px auto;
+    min-height: 40px;
+    font-size: 14px;
+    line-height: 36px;
+    padding-left: 7px;
+    zoom: 1;
+}
+.main-mid2 .there-line .pos{
+    position: relative;
+    width:592px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+}
+.main-mid2 .there-line .diagnosis{
+    width:590px;
+    height:35px;
+    padding:0 10px;
+    line-height: 35px;
+}
+
+
+.main-mid3 .main-mid2-title{
+    width:698px;
+    margin:25px auto;
+    padding-left:35px;
+    height:60px;
+    line-height: 60px;
+    font-size: 19px;
+    font-weight: bold;
+    background: #c8e6ff;
+}
+.main-mid3 .four-line{
+    width:700px;
+    margin:20px auto;
+    font-size: 14px;
+}
+.main-mid3 .check-item{
+    position:relative;
+    width: 655px;
+    margin: 24px auto;
+    line-height: 32px;
+    font-size: 14px;
+    /*border: 1px solid #d6d6d6;*/
+   /* background: #f5f5f5;*/
+}
+.main-mid3 .check-item .chargeIcon{
+    position:absolute;
+    left:-20px;
+    top:-17px;
+    background: url(../images/hasCharge.png);
+    height:100px;
+    width:100px;
+    display:none;
+    z-index: 998
+}
+.main-mid3 .check-item .small-title{
+    width: 630px;
+    height: 40px;
+    margin: 0 auto;
+    /* background: #e4f3ff; */
+    line-height: 40px;
+    /*border-bottom: 1px dashed #dfdfdf;*/
+}
+
+.main-mid3 .check-item .deleteAddCheck {
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    color: #3d77b9;
+}
+.main-mid3 .four-line b{
+    display: inline-block;
+}
+
+.main-mid3 .four-line .four-line-txt{
+   width: 639px;
+    height: 50px;
+    /*padding-left: 30px;*/
+    line-height: 50px;
+    color: #000;
+    display: table;
+   /* display: block;*/
+}
+.main-mid3 .four-line .charsetTrue{
+    background:#f5f5f5;
+    height:50px;
+    line-height: 50px;
+    border-left:1px solid #dfdfdf;
+    border-right:1px solid #dfdfdf;
+
+}
+
+.main-mid3 .four-line a.four-line-txt span{
+    margin-left:10px;
+    float:left;
+    display:inline-block;
+}
+
+
+/*.main-mid3 .four-line a.four-line-txt:hover .four-line-wenzi,.main-mid3 .four-line a.four-line-txt:hover span{*/
+    /*color:#3d77b9;*/
+/*}*/
+.main-mid3 .four-line a.four-line-txt .addSamoleList{
+    display: inline-block;
+    width: 250px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.main-mid3 .four-line a.four-line-txt:hover .addSamoleList{
+    color:#50b7ff;
+}
+.main-mid3 .four-line .four-line-txt .four-line-wenzi{
+    margin-top: 10px;
+    float:left;
+    display:inline-block;
+    width:394px;
+    height:30px;
+    padding:0 5px;
+    line-height: 30px;
+    color:#000;
+    margin-left:58px;
+}
+
+.main-mid3 .four-line .four-line-txt .deleteCheck{
+    width:16px;
+    height:16px;
+    margin-right:10px;
+    cursor:pointer;
+    float:right;
+    margin-top:17px;
+    background: url("../images/deleteIcon.png") no-repeat center center;
+}
+/*.main-mid3 .four-line .four-line-txt:hover .deleteCheck{
+    background-position:-18px -19px;
+}*/
+
+
+
+
+
+
+/* 成药处方   */
+.prescriptions{
+    width:615px;
+    margin:0 auto;
+}
+
+.main-mid4 .five-line1{
+    width:655px;
+    margin:24px auto;
+    line-height: 32px;
+    font-size: 14px;
+    border:1px solid #dfdfdf;
+    background: #f5f5f5;
+    position: relative;
+   /* z-index: 98;*/
+    /*overflow: hidden;*/
+}
+.main-mid4 .five-line1 .chargeIcon{
+    position:absolute;
+    z-index: 2;
+    left:-17px;
+    top:-18px;
+    background: url(../images/hasCharge.png);
+    /*background-size:80px;*/
+    height:100px;
+    width:100px;
+    display:none;
+}
+.main-mid4 .five-line1{
+    padding-bottom:5px;
+}
+.main-mid4 .five-line1 .small-title{
+    width:635px;
+    height:40px;
+    margin:0 auto;
+    line-height: 40px;
+    border-bottom:1px dashed #dfdfdf;
+}
+/*.main-mid4 .five-line1 .small-title span{
+    float:left;
+    display:inline-block;
+}*/
+.main-mid4 .five-line1 .small-title .deleteWestDrug,.saveCommonDrug,.small-title .deleteChineseDrug{
+    cursor:pointer;
+    float:right;
+    font-size: 14px;
+    color:#3d77b9;
+}
+.main-mid4 .five-line1 .way1{
+    width:669px;
+    padding-left:20px;
+    height:40px;
+    line-height: 40px;
+    margin-top:30px;
+}
+.way-ide{
+    margin-left:60px;
+    display: inline-block;
+}
+.way1-1{
+    margin-right:100px;
+}
+.way1-2{
+    margin-right:100px;
+}
+
+.way2{
+    width:640px;
+    margin:6px auto;
+    position:relative;
+}
+.way2:after{
+    content: '';
+    display: table;
+    height: 0;
+    clear: both;
+}
+.way2 .medicinal-name{
+    width:138px;
+    height:32px;
+    line-height: 32px;
+    padding:0 20px 0 10px;
+    font-size: 14px;
+}
+.way2 .medicinal-way{
+    width:60px;
+    height:32px;
+    line-height: 32px;
+    color:#000;
+    font-size: 14px;
+    margin-left:4px;
+    text-align: center;
+}
+.way2 .medicinal-frequency{
+    width:72px;
+    height:32px;
+    line-height: 32px;
+    color:#000;
+    font-size: 14px;
+    margin-left:4px;
+    text-align: center;
+}
+.way2 .medicinal-unit,.medicinal-single{
+    width:44px;
+    height:32px;
+    line-height: 32px;
+    color:#000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.way2 .medicinal-group{
+    width:20px;
+    height:32px;
+    line-height: 32px;
+    color:#000;
+    font-size: 14px;
+    margin-left:4px;
+    text-align: center;
+}
+.way2 .medicinal-dose{
+    width:48px;
+    height:32px;
+    line-height: 32px;
+    color:#000;
+    font-size: 14px;
+    margin-left:4px;
+    text-align: center;
+}
+.way2 .medicinal-charge{
+    width:32px;
+    height:32px;
+    line-height: 32px;
+    color:#000;
+    font-size: 14px;
+    margin-left:4px;
+    padding: 0 8px;
+    text-align: center;
+}
+.way2 .medicinal-info{
+    float: left;
+    width: 90%;
+    overflow: hidden;
+    color: #777777;
+    text-indent: 8px;
+    line-height: 24px;
+}
+
+.add{
+    color:#3d77b9;
+    font-size: 14px;
+    margin-left:12px;
+}
+
+
+/* 饮片处方   */
+.main-mid5{
+    margin-bottom:100px;
+}
+
+.main-mid5 .six-line{
+    width:689px;
+    margin:24px auto;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border:1px solid #d6d6d6;
+}
+
+.main-mid5 .six-line .small-title{
+    width:649px;
+    padding-left:40px;
+    height:40px;
+    background: #e4f3ff;
+    line-height: 40px;
+    border-top:1px solid #e9e9e9;
+
+}
+.five-line1-line1{
+    width:538px;
+    height:36px;
+    line-height: 36px;
+    margin:8px auto;
+    padding-left: 25px;
+    display: table;
+}
+.five-line1-line1 .jishu{
+    margin-right:34px;
+    display: inline-block;
+    float:left;
+}
+.five-line1-line1 .jiliang{
+    display: inline-block;
+    margin-right:37px;
+    float:left;
+}
+.five-line1-line1 .pinlv{
+    display: inline-block;
+    float:right;
+}
+.five-line1-line1 .jishu .medicinal-num{
+    width:66px;
+    height:32px;
+    line-height: 32px;
+    margin:0 5px;
+    padding-left:10px;
+}
+.five-line1-line1 .jishu .medicinal-num.text-ccc{
+    color:#ccc;
+}
+.five-line1-line1 .jiliang .yong-M{
+    width:66px;
+    height:32px;
+    line-height: 32px;
+    margin:0 5px;
+    padding-left:10px;
+}
+.five-line1-line1 .pinlv .yong-M{
+    width:87px;
+    height:32px;
+    line-height: 32px;
+    margin:0 5px;
+    padding:0 10px;
+}
+
+.five-line1-line2{
+    width:540px;
+    height:36px;
+    line-height: 36px;
+    /*overflow: hidden;*/
+    margin:8px auto;
+    padding-left:16px;
+    position: relative;
+    display:table;
+}
+.span-dis{
+    margin:0;
+    padding: 0;
+    line-height: 32px;
+    display: inline-block;
+    position: absolute;
+    left:0;
+}
+.yf{
+    margin-left:20px;
+}
+.five-line1-line2 .medicinal-yong{
+    float:left;
+    width:480px;
+    overflow: hidden;
+    word-break: break-all;
+    min-height: 32px;
+    line-height: 32px;
+    margin-left:37px;
+    padding:0 10px;
+    display: inline-block;
+    border:#dfdfdf 1px solid;
+    background:#ffffff;
+    margin-bottom: 5px;
+}
+.five-line1-line2 .medicinal-yong.red-ipt{
+    border: 1px solid #ffb2b2;
+}
+
+.five-line1-line3{
+    width:570px;
+    height:36px;
+    line-height: 36px;
+    margin: 8px auto;
+    position: relative;
+    display:table;
+}
+.five-line1-line3 .medicinal-yaoqiu{
+    float:left;
+    width:480px;
+    min-height:32px;
+    line-height: 32px;
+    margin-left:60px;
+    padding:0 10px;
+    display: inline-block;
+    background: #ffffff;
+    border:#dfdfdf 1px solid;
+}
+.five-line1-line4{
+    width:620px;
+    height:36px;
+    line-height: 36px;
+    padding-left:11px;
+    margin:0 auto;
+    position: relative;
+}
+
+.five-line1-line4 .recordIpt{
+    float:left;
+}
+.five-line1-line4  .specialBox{
+    height:34px;
+    width:10px;
+    background:none;
+    border:none;
+
+}
+.components-name{
+    width:138px;
+    height:32px;
+    line-height: 32px;
+    padding:0 20px 0 10px;
+    color:#000;
+    margin-left: 45px;
+}
+.number{
+    width:56px;
+    height:32px;
+    line-height: 32px;
+    margin:0 0 0 4px;
+    padding-left:3px;
+    padding-right:16px;
+    text-align: center;
+    color:#000;
+}
+.remarks{
+    width:182px;
+    height:32px;
+    line-height: 32px;
+    padding:0 10px;
+    color:#000;
+}
+.five-line1-line5{
+    width:630px;
+    height:45px;
+    line-height: 45px;
+    overflow: hidden;
+    padding-left:11px;
+    margin:0 auto 18px auto;
+}
+.five-line1-line6{
+    width:630px;
+    height:45px;
+    overflow: hidden;
+    padding-left:11px;
+    margin:0 auto 18px auto;
+}
+.red-ipt{
+    border: 1px solid #ffb2b2;
+}
+.numIpt{
+    padding: 0;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #ccc;
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #ccc;
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+color: #ccc;
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #ccc;
+} 
+.addWestPrescriptionList,.addChinesePrescriptionList{
+    cursor: pointer;
+}
+.autoHeight{
+    position: relative;
+    margin-top:24px;
+}
+.autoTitle{
+    position: absolute;
+    font-weight: normal;
+    color: #1a1a1a;
+}
+.autoIpt{
+    margin-left:55px;
+}
+.autoIpt:focus{
+    outline: none;
+    border: 1px solid #3d77b9;
+}
+.check-search,.drug-search{
+    position: relative;
+}
+.check-search{
+   /* width:588px;*/
+   /* margin:20px 26px 20px 81px;*/
+}
+.drug-search{
+    float:left;
+    display: inline-block;
+}
+
+.check-search .Check-item{
+    display: inline-block;
+    height:32px;
+    line-height: 32px;
+    vertical-align: middle;
+    padding:0 10px;
+    width:382px;
+    margin-right: 5px;
+    position: relative;
+}
+.check-search .check-num{
+    display: inline-block;
+    width:32px;
+    height:30px;
+    line-height: 30px;
+    vertical-align: middle;
+    padding:0 5px;
+}
+
+.check-search .sug-ul-dom{
+    width:495px;
+    background: #fff;
+    border:#d6d3d4 1px solid;
+    z-index:998;
+    position: absolute;
+    top:42px;
+    display: none;
+    margin-left:58px;
+}
+.check-search .sug-ul-dom li{
+    margin:0 auto;
+    padding-left:11px;
+    height:31px;
+    line-height:31px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+/*药品sug-开始*/
+.WestPrescriptionLists .drug-sug-name{
+    width:495px;
+    left:0;
+}
+.ChinesePrescriptionList .drug-sug-name{
+    width:495px;
+    left:56px;
+}
+.west-sug-usage{
+    left: 200px;
+}
+.west-sug-frequency{
+    left:266px;
+}
+.west-sug-dosunit{
+    left:394px;
+}
+.herber-sug-frequency{
+    left: 61px;
+}
+.herber-sug-usage{
+    left:53px;
+}
+.herber-sug-require{
+    left:60px;
+}
+.herber-sug-common{
+    left:327px;
+}
+.west-sug-totalunit{
+    width:43px;
+    left:0;
+}
+
+.WestPrescriptionLists .sug-ul-dom,.ChinesePrescription .sug-ul-dom{
+    top:33px;
+    background: #fff;
+    border:#d6d3d4 1px solid;
+    display: none;
+    z-index:99;
+    position: absolute;
+}
+
+.WestPrescriptionLists .sug-ul-dom li,.ChinesePrescription .sug-ul-dom li{
+    /*margin:0 auto;*/
+    padding-left:10px;
+    height:31px;
+    line-height:31px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+}
+.check-search .sug-ul-dom li:hover,.WestPrescriptionLists .sug-ul-dom li:hover,.ChinesePrescription .sug-ul-dom li:hover{
+    background: #f5f5f5;
+}
+/*药品sug-结束*/
+.sampleList{
+    margin:0 5px;
+}
+.nav-fixed{
+    width:50%;
+}
+.nav-fixed{
+    height:49px;
+    line-height: 49px;
+    border-bottom: 1px #d4d4d4 solid;
+}
+.nav-fixed .new-txt{
+    margin-left:10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-fixed .nav-btn{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.nav-fixed .save-and-create,.nav-fixed .only-save,.nav-fixed .print,.nav-fixed .only-cancel,.nav-fixed .only-receive{
+    width:88px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 14px;
+    color:#3d77b9;
+}
+.nav-fixed .only-save{
+    cursor: default;
+    color:#cccccc;
+    background: url("../images/gray-btn.png") no-repeat center center;
+}
+.nav-fixed .only-save.j_only_save{
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../images/short-btn-bg.jpg") no-repeat center center;
+}
+.nav-fixed .save-and-create{
+    width:114px;
+}
+/* 云诊所box */
+.cloudClinic-box{
+    min-width: 680px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top:49px;
+    min-height: 520px;
+    border-right:1px solid #dfdfdf;
+}
+/* 辅助诊断iframe */
+.page-iframe-content{
+    position: absolute;
+    width:400px;
+    height:98.5%;
+    top: 0;
+    z-index:101;
+    overflow: hidden;
+    background: #fff;
+}
+#cdss_container{
+    width:400px;
+    height:100%;
+}
+
+.record-pop {
+    /*display: none;*/
+    /*position: absolute;*/
+    /*top: 57px;*/
+    /*left: 50%;*/
+    margin-left: -300px;
+    /*width: 200px;*/
+    /*height: 30px;*/
+    /*font-size: 14px;*/
+    /*text-align: center;*/
+    /*line-height: 30px;*/
+    /*color: #ffffff;*/
+    /*border-radius: 15px;*/
+    /*overflow: hidden;*/
+    /*opacity: 0.8;*/
+    /*filter: alpha(opacity=80);*/
+    /*-moz-opacity: 0.8;*/
+    /*-khtml-opacity: 0.8;*/
+}
+
+/*.record-success{*/
+    /*background:#6fcc47;*/
+/*}*/
+/*.record-error{*/
+    /*background: #f68b8b;*/
+/*}*/
+/*.record-error-mark{*/
+    /*display: inline-block;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*vertical-align: middle;*/
+    /*background: url("../images/index-sprite1.png") no-repeat -80px -80px;*/
+/*}*/
+.record-success{
+    background:#6fcc47;
+}
+.name .sug-ul-dom{
+    position: absolute;
+    width: 230px;
+    overflow: hidden;
+    background: #fff;
+    top: 34px;
+    left: 52px;
+    z-index: 9;
+    border: 1px solid #999;
+    color: #383838;
+}
+
+.name .sug-ul-dom li{
+    padding:0 15px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 43px;
+    line-height: 43px;
+}
+.name .sug-ul-dom i{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.name .sug-ul-dom li:hover,.s-hover{
+    background: #f5f5f5;
+}
+.name .sug-ul-dom .name-search-name{
+    width: 50%;
+}
+.name .sug-ul-dom .name-search-gender{
+    width: 23%;
+}
+.name .sug-ul-dom .name-search-age{
+    width: 24%;
+}
+.p_ageType{
+    width:52px;
+    height:34px;
+    /*line-height: 34px;*/
+    /*margin-left:-7px;*/
+    /*padding:5px 0;*/
+    /*text-align: center;*/
+    /*vertical-align: -5%\9;*/
+}
+/*:root .p_ageType{*/
+    /*vertical-align: 0;*/
+/*}*/
+.deleteWestDrugList,.deleteChinesePrescriptionList,.deleApendCost{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: url("../images/deleteIcon.png") no-repeat center center;
+    cursor: pointer;
+    margin-left:5px;
+}
+.phone-num{
+    width:215px;
+    height:32px;
+    line-height: 32px;
+    margin-left:5px;
+    padding:0 10px;
+}
+
+.short-btn{
+    display: inline-block;
+    width:88px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../images/short-btn-bg.jpg") no-repeat center center;
+    font-size: 14px;
+    margin-left:2px;
+}
+.long-btn{
+    display: inline-block;
+    width:114px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 2px;
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../images/long-btn-bg.jpg") no-repeat center center;
+    font-size: 14px;
+}
+.deleteWestDrugList,.deleteChinesePrescriptionList{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background: url("../images/deleteIcon.png") no-repeat center center;
+    cursor: pointer;
+    margin-left:1px;
+   /* float:left;*/
+}
+.drugItemTitle{
+    width:635px;
+    margin:0 auto;
+}
+.drugItemTitle span{
+    text-align: center;
+    display: inline-block;
+    margin:0 1px;
+    font-size: 14px;
+}
+
+.drugItemTitle span.drugNameTitle{
+    width:162px;
+}
+.drugItemTitle span.drugGroupTitle{
+    width:37px;
+}
+.drugItemTitle span.drugWayTitle{
+    width:62px;
+}
+.drugItemTitle span.drugFrequencyTitle{
+    width:74px;
+}
+.drugItemTitle span.drugChargeTitle{
+    width:96px;
+}
+.drugItemTitle span.drugUnitTitle{
+    width:96px;
+}
+.loadRecord-btn,.saveRecord-btn,.addChineseDrug,.loadCommonPres{
+    margin-left:16px;
+}
+.deleteCheckSearch{
+    width:16px;
+    height:16px;
+    background: url("../images/deleteIcon.png") no-repeat center center;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left:10px;
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*right: 4px;*/
+}
+
+
+
+
+ /*lmz  2016-3-2 云诊所三期  新添加*/
+
+
+/* 添加成药处方*/
+.main-mid4 .five-line1 .small-title .drugBtn{
+    margin-left:10px;
+}
+
+.main-mid4 .five-line1 .WestPrescriptionList .univalent{
+    width:75px;
+    display:inline-block;
+    padding-left:1px;
+    overflow: hidden;
+    float:left;
+    text-overflow: ellipsis;
+}
+/* 添加重要处方*/
+
+.main-mid4 .five-line1 .small-title .drugBtn{
+    margin-left:10px;
+}
+
+.main-mid4 .five-line1 .ChinesePrescriptionLists .univalent{
+    width:75px;
+    display:inline-block;
+    padding-left:8px;
+     overflow:hidden; 
+    text-overflow:ellipsis;
+    float:left;
+}
+
+
+
+    /*附加费用*/
+
+.main-mid6 .four-line1{
+    width:667px;
+    margin:24px auto;
+    line-height: 50px;
+    font-size: 14px;
+   
+}
+
+
+
+.main-mid6 .four-line1 .addCosts-main{
+    width: 655px;
+    margin: 24px auto;
+    line-height: 50px;
+    font-size: 14px;
+    position:relative;
+   /* border: 1px solid #d6d6d6;
+    background: #f5f5f5;*/
+
+}
+.main-mid6 .four-line1 .addCosts-main .chargeIcon{
+    position:absolute;
+    left:-20px;
+    top:-17px;
+    background: url(../images/hasCharge.png);
+    /*background-size:80px;*/
+    height:100px;
+    width:100px;
+    display:none;
+    z-index: 99
+}
+.main-mid6 .four-line1 .small-title{
+    width:655px;
+    height:40px;
+    margin:0 auto;
+    /*background: #e4f3ff;*/
+    line-height: 40px;
+    border-bottom:1px dashed #dfdfdf;
+}
+.main-mid6 .four-line1 .small-title .deleteAddCosts{
+    cursor:pointer;
+    float:right;
+    font-size: 14px;
+    color:#3d77b9;
+}
+
+.main-mid6 .four-line1 .addCost-way{
+    display:block;
+    width: 660px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main-mid6 .four-line1 .addCost-way .addWay{
+    display:block;
+    width:660px;
+    height:50px;
+    /*padding-left:15px;*/
+    /*padding-right:15px;*/
+   /* background: #f5f5f5;*/
+
+}
+.main-mid6 .four-line1  .addCost-way .addCharged{
+    border-left:1px solid #dfdfdf;
+    border-right:1px solid #dfdfdf;
+}
+.way-search{
+     display:inline-block;
+    /* width:245px;*/
+}
+.way-search input,.way-search em,.way-search a{
+    height:32px;
+    line-height: 32px;
+    float:left;
+    margin-top:8px;
+    padding: 0 5px;
+}
+.way-search input.material{
+    width: 440px;
+    margin-left: 58px;
+}
+.main-mid6 .four-line1  .addCost-way .zh-ipt{
+    width: 48px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    /* padding-left: 5px; */
+}
+
+
+
+
+/* 医嘱*/
+.doctorSay {
+    width:615px;
+    margin:0 auto;
+    line-height: 25px;
+    font-size: 14px;
+}
+.doctorSay .zh-ipt2 {
+    width: 525px;
+    /* margin: 0 10px 0 8px; */
+    min-height:32px;
+    line-height:32px;
+    padding: 0 5px;
+    line-height: 32px;
+    float: left;
+}
+.autoIpt2{
+    margin-left:38px;
+}
+.autoIpt2:focus{
+    outline: none;
+    border: 1px solid #3d77b9;
+}
+/* 合计金额 */
+
+.main-mid7 .four-line2{
+       width: 667px;
+    margin: 24px auto;
+    height: 40px;
+    line-height:40px;
+    font-size: 12px;
+    border: 1px solid #d6d6d6;
+    background: #f5f5f5;
+   
+}
+
+.main-mid7 .four-line2 .totalAmount{
+    float:right;
+    margin-right: 10px;
+}
+.main-mid7 .four-line2 .totalAmount em{
+     font-size: 14px;
+     color:red;
+}
+
+/*检查治疗项*/
+.main-mid3 .check-search #supportCheck{
+    position:relative;
+    z-index: 7
+}
+/*校验    检查项和处方的校验*/
+.main-mid3 .check-search .heckIcon{
+    position:absolute;
+    width: 16px;
+    height: 14px;
+    background: url("../images/L_icon.png") no-repeat center center;
+    /*background-size: 18px;*/
+    display: none;
+    cursor: pointer;
+    vertical-align: middle;
+    left:442px;
+    top:20px;
+    z-index: 8
+}
+.main-mid3 .check-search .iconDiv{
+    display:none;
+    position:absolute;
+    left:263px;
+    top:42px;
+    z-index: 999;
+    line-height: 20px;
+    /*background:#848484;*/
+   /* background:url("../images/btonIcon.png") no-repeat  center; */
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    background:#848484;
+    padding:10px;
+    color:#ffffff;
+}
+.main-mid3 .check-search .jiantou{
+    display:none;
+    position:absolute;
+    top:34px;
+    left:440px;
+    z-index: 999;
+    background:url("../images/topIcon.png") no-repeat  center; 
+    /*background-size:10px 15px;*/
+    width:19px;
+    height:10px;
+}
+/*药品*/
+.main-mid4 .iconDiv,.iconDiv1{
+    display:none;
+    position:absolute;
+    left:102px;
+    top:32px;
+   /* background:#fff;*/
+   line-height: 25px;
+    z-index: 999;
+    color:#fff;
+   /* padding:5px;*/
+
+}
+
+.main-mid4 .ChinesePrescriptionLists .iconDiv{
+    left:150px;
+}
+.main-mid4 .ChinesePrescriptionLists .heckIcon{
+     left:206px;
+}
+
+.main-mid4 .iconDiv1{
+   /* background: url("../images/btonIcon.png") no-repeat center;
+    background-size:177px 32px;*/
+    background:#848484;
+   /* padding:10px;*/
+    left:422px;
+    top:32px;
+   /* width:177px;*/
+    height:25px;
+    line-height: 25px;
+    text-indent: 3px;
+    font-size:12px;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+
+}
+.main-mid4 .ChinesePrescriptionLists .iconDiv1{
+   
+    left:222px;
+
+}
+
+.main-mid4 .jiantou1{
+    position: absolute;
+    top: 25px;
+    left: 480px;
+    z-index: 999;
+    background: url("../images/topIcon.png") no-repeat center;
+    /*background-size: 8px 13px;*/
+    width: 14px;
+    height: 9px;
+    display:none;
+}
+
+
+.main-mid4 .ChinesePrescriptionLists .jiantou1{
+   
+    left: 293px;
+   
+}
+.main-mid4 .heckIcon,.heckIcon1{
+    position:absolute;
+    width: 16px;
+    height: 14px;
+    background: url("../images/L_icon.png") no-repeat center center;
+    /*background-size: 15px;*/
+    display: none;
+    cursor: pointer;
+    vertical-align: middle;
+    left:150px;
+    top:10px;
+    z-index: 98
+}
+
+.main-mid4 .iconDiv{
+    position: absolute;
+    /*left: 0px;*/
+   /* top: 22px;*/
+    z-index: 99;
+    background:#848484;
+   /* padding: 10px;*/
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+   /* padding:0 5px;*/
+    /*height:60px;*/
+   /* background-size:345px 60px;*/
+}
+.main-mid4 .iconDiv p{
+    width:125px;
+    height:25px;
+    text-align: center;
+    font-size: 12px;
+   /* display:block;*/
+   /* margin:auto;*/
+    padding:0 5px;
+}
+.main-mid4 .WestPrescriptionLists .jiantou{ /*西药*/
+    position: absolute;
+    top: 22px;
+    left: 152px;
+    z-index: 98;
+    background: url("../images/topIcon.png") no-repeat center;
+    /*background-size: 10px 15px;*/
+    width: 14px;
+    height: 9px;
+    display:none;
+}
+.main-mid4 .ChinesePrescriptionLists .jiantou{ /*中药*/
+    position: absolute;
+    top: 22px;
+    left: 207px;
+    z-index: 98;
+    background: url("../images/topIcon.png") no-repeat center;
+    /*background-size: 10px 15px;*/
+    width: 14px;
+    height: 9px;
+    display:none;
+}
+.main-mid4 .ChinesePrescriptionLists .unit{
+    float: left;
+    width: 20px;
+    height: 34px;
+    overflow: hidden;
+    text-align: center;
+}
+.main-mid4 .ChinesePrescriptionLists .heckIcon1{
+    left:291px;
+   
+}
+.main-mid4 .WestPrescriptionLists .heckIcon1{
+     left:477px;
+    /* display:block;*/
+}
+/*添加下拉，单位*/
+.way2 .unitConMain{
+    display:inline-block;
+    position:relative;
+}
+
+
+/*载入模板*/
+.template_load,.template_save{
+    width:600px;
+    height:auto;
+    border:1px solid #ccc;
+}
+
+.template_loadTop,.template_saveTop{
+    height:40px;
+    width:100%;
+    position:relative;
+    line-height:40px;
+    font-size:16px;
+    background:#3d77b9;
+}
+
+.template_loadTop span,.template_saveTop span{
+    padding-left:10px;
+
+}
+.template_loadTop a,.template_saveTop a{
+    position:absolute;
+    height:40px;
+    line-height:40px;
+    right:10px;
+}
+
+.template_loadCon,.template_saveCon{
+    width:100%;
+
+}
+.template_loadCon table,.template_saveCon table{
+    width:100%; 
+}
+.template_loadCon  thead{
+    width:100%;
+
+}
+
+.template_loadCon  thead tr{
+    height:35px;
+    width:100%;
+    background:#f5f5f5;
+    font-size: 14px;
+
+}
+.template_loadCon  tbody tr{
+    height:35px;
+    width:100%;
+    border-bottom:1px solid #ccc;
+
+}
+.template_loadCon  tr th,.template_loadCon  tr td{
+    width:45%;
+    text-align: center;
+    line-height:20px;
+}
+.template_loadCon  thead tr th:first-child,.template_loadCon  tr td:first-child{
+    width:10%;
+    text-align: center;
+}
+
+.template_loadbtn,.template_savebtn{
+    width:100%;
+    overflow: hidden;
+    margin:15px auto;
+}
+
+.template_loadbtn ul li,.template_savebtn ul li{
+    width:50%;
+    text-align: center;
+    display: inline-block;
+     float: left;
+}
+.template_loadbtn a,.template_savebtn a{
+    display: inline-block;
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    background: url("../images/blue-btn.jpg") no-repeat center center;
+    color: #FFF;
+    font-size: 14px;
+   
+} 
+.template_saveCon{
+    padding:15px;
+}
+.template_saveCon table tr{
+    margin-top:8px;
+    display:inline-block;
+}
+.template_saveCon table td:first-child{
+    width:80px;
+    text-align: right;
+    font-size:14px;
+}
+.template_saveCon table td .info-must {
+    color: red;
+    }
+
+
+.template_saveCon table td .templateName{
+    width:445px;
+    margin-left:8px;
+}
+.template_saveCon table td .templateExp{
+    width:445px;
+    margin-left:8px;
+    height:150px;
+}
+
+
+
+
+
+/*修改西药问题*/
+.way2 input{
+    float:left;
+} 
+
+.wetUitDiv{
+    float: left;
+   display:inline-block;
+   position:relative; 
+}
+/*.wetUitDiv ul{*/
+    /*position:absolute;*/
+    /*background:#fff;*/
+    /*display:none;*/
+    /*z-index:9;*/
+    /*width:43px;*/
+    /*border:1px solid #ccc;*/
+    /*border-top: none;*/
+    /*top:34px;*/
+/*}*/
+/*.wetUitDiv ul li{*/
+    /*line-height: 30px;*/
+    /*height:30px;*/
+    /*text-align: center;*/
+/*}*/
+/*.wetUitDiv ul li:hover{*/
+    /*background:#f5f5f5;*/
+/*}*/
+
+/*模版载入 BY ZH*/
+.list-box{
+    width: 95%;
+    margin: -30px auto 0;
+    height: 282px;
+    line-height: 21px;
+    overflow-y: scroll;
+    font-size: 14px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.list-box td{
+    height:41px;
+    border:none;
+    text-indent: 0;
+    padding-left:30px;
+}
+.list-box .table-title{
+    text-indent: 55px;
+}
+.pre-list,.advice-list{
+    width:100%;
+}
+.temp-name{
+    width:30%;
+    background: url("../images/check.png") no-repeat left center;
+    cursor: pointer;
+    padding-left:25px;
+}
+.temp-name-outer{
+    width:30%;
+}
+.name-cur{
+    background: url("../images/checked.png") no-repeat left center;
+}
+.temp-desc{
+    width:70%;
+    padding-left:55px;
+}
+.single-line{
+    overflow: hidden;
+}
+.advice-temp{
+    width:32px;
+    height:32px;
+    line-height: 20px;
+    border:1px solid #dfdfdf;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    color:#383838;
+}
+.save-as-common{
+    cursor: pointer;
+    color: #3d77b9;
+    float: right;
+    margin-right:10px;
+}
+.error-pri{
+    color:red;
+    cursor: pointer;
+}
+.error-info{
+    display: none;
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    line-height: 30px;
+    right: -10px;
+    top: 25px;
+    background: #848484;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 9;
+}
+
+/*打印处方-begin*/
+.to-print-prescr{
+    display: inline-block;
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: default;
+    color: #cccccc;
+    background: url("../images/gray-btn.png") no-repeat center center;
+    font-size: 14px;
+    margin-left:16px;
+}
+.to-print-prescr.active{
+    cursor: pointer;
+    color: #3d77b9;
+    background: url("../images/short-btn-bg.jpg") no-repeat center center;
+}
+
+.print-config,
+.print-check{
+    vertical-align: top;
+    display: -moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+.print-config{
+    padding-top: 14px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}
+.print-config .ui-select-wrap{
+    height:24px;
+    line-height: 24px;
+}
+.print-config .ui-select-list{
+    top: 24px;
+}
+.print-check{
+    width: 17px;
+    height: 17px;
+    margin: 4px 4px 0 16px;
+    background: url("../images/check.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.print-check.print-checked{
+    background: url("../images/checked.png") no-repeat 0 0;
+}
+/*打印处方-end*/
+.only-save .charge-tag{
+    position: absolute;
+    top:50px;
+    left:-10px;
+    display: none;
+}
+.only-save:hover .charge-tag{
+    display: block;
+}
+.overlay-box{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin:0 auto;
+    height: 272px;
+    width: 95%;
+    border-bottom:1px solid #dfdfdf;
+}
+.overlay-box li {
+    list-style: none;
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.temp-desc{
+    width:50%;
+}
+.table-list .table-name{
+    width:20%;
+}
+.table-list .table-desc{
+    width:50%;
+}
+.table-list .table-type{
+    width:30%;
+    text-indent: 33px;
+}
+.overlay-box{
+    margin:0 auto;
+    height: 272px;
+    width: 95%;
+    border-bottom:1px solid #dfdfdf;
+}
+.overlay-box li{
+    list-style: none;
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    cursor:pointer;
+}
+.overlay-box li span{
+    display: block;
+    float:left;
+}
+.line-cur .select-cur, .sex-cur {
+    width: 17px !important;
+    height: 17px !important;
+    background: url(../images/select.jpg) no-repeat center;
+    vertical-align: -5%;
+}
+.select-radio, .sex-radio {
+    width: 17px;
+    height: 17px;
+    line-height: 32px;
+    background: url(../images/unselect.jpg) no-repeat center;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: -5%;
+    cursor: pointer;
+}
+.J_registerList{
+}
+.list-box .table-style{
+    text-indent: 30px;
+}
+.name {
+    overflow: hidden;
+}
+.temp-type{
+    width:20%;
+}
+.drug-search .drug-sug-name{
+    max-height:300px;
+    overflow-y:scroll ;
+}
+.nav-fixed .only-save.j_only_save,.nav-fixed .j_only_receive{
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../images/short-btn-bg.jpg") no-repeat center center;
+}
+.nav-fixed .only-save.j_only_save:active,.nav-fixed .j_only_receive:active{
+    color:#fff;
+    background: url("../images/short-btn-bg.jpg") no-repeat center bottom;
+}
+.nav-fixed .only-cancel:active{
+    color: #fff;
+    background: url(../images/short-btn-bg.jpg) no-repeat center bottom;
+}
+/*.paging-page .page-num-statistics{*/
+    /*left: 50%;*/
+    /*top: 50px;*/
+    /*margin-left: -84px;*/
+/*}*/
+.page-num-statistics{
+    display: none;
+}

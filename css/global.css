@@ -1,0 +1,260 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0;padding:0}
+body,button,input,select,textarea { font:12px/1.5 "Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+address,cite,dfn,em,var {font-style:normal}
+code,kbd,pre,samp {font-family:courier new,courier,monospace}
+small {font-size:12px}
+ol,ul {list-style:none}
+a {text-decoration:none}
+a:hover {text-decoration:none}
+/*sup {vertical-align:text-top}*/
+/*sub {vertical-align:text-bottom}*/
+legend {color:#000}
+fieldset,img {border:0}
+button,input,select,textarea {font-size:100%}
+table {border-collapse:collapse;border-spacing:0}
+iframe{border: none !important;}
+
+.f-clrfix{zoom:1;}
+.f-clrfix:after{content:''; display:block; height:0; clear:both;}
+.f-ct{margin: 0 auto;}
+.f-ps{position: relative;}
+.f-inbk{vertical-align: middle;
+    display: -moz-inline-stack;
+    display:inline-block;
+    zoom:1;
+    *display:inline;}
+.f-ov{overflow: hidden;}
+img{vertical-align: top; }
+a{background: url("about:blank");cursor: pointer;}
+i,em{font-style: normal;}
+:focus{
+    outline: none;
+}
+input{
+    background-color: #fff;
+}
+input:focus,textarea:focus,select:focus{
+    outline: none;
+    border: 1px solid #3d77b9;
+}
+
+.cloudClinic-body{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.placeholder{
+    color: #ccc !important;
+}
+
+/*带连接 || 可点击 的按钮样式*/
+.link-edit{
+    color: #3d77b9;
+    cursor: pointer;
+    font-family: "Microsoft YaHei", Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+.link-edit:hover{
+    text-decoration: underline;
+}
+
+/**
+** 页面按钮
+** 2-4个中文字符
+*/
+.short-btn{
+    display: inline-block;
+    width:88px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../../images/short-btn-bg.jpg") no-repeat center center;
+    font-size: 14px;
+}
+/**
+** 页面按钮
+** 6个中文字符
+*/
+.long-btn{
+    display: inline-block;
+    width:114px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color:#3d77b9;
+    background: url("../../images/long-btn-bg.jpg") no-repeat center center;
+    font-size: 14px;
+}
+
+/*翻页部分样式*/
+.paging-page{
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*width: 90%;*/
+    /*padding: 16px 10% 0 16px;*/
+    padding: 16px 0;
+    height: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #1a1a1a;
+    background: #ffffff;
+}
+.page-num{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+    vertical-align: top;
+}
+.page-arrow{
+    color: #959595;
+    border-radius:4px;
+    margin: 0 2px;
+    text-align: center;
+}
+.page-arrow .page-mark{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    background: url("../../images/page-arrow.jpg") no-repeat 0 0;
+}
+.page-arrow.page-prev,.page-arrow.page-next,.page-arrow.page-op,.page-arrow.page-ed{
+    color: #3d77b9;
+}
+.page-first .page-mark{background-position: 0 0;}
+.page-up .page-mark{background-position: -20px 0;}
+.page-down .page-mark{background-position: -40px 0;}
+.page-last .page-mark{background-position: -60px 0;}
+
+.page-first.page-op  .page-mark{background-position: 0 -20px;}
+.page-up.page-prev .page-mark{background-position: -20px -20px;}
+.page-down.page-next .page-mark{background-position: -40px -20px;}
+.page-last.page-ed .page-mark{background-position: -60px -20px;}
+.page-sub{
+    background: #3d77b9;
+    color: #ffffff;
+    border-color: #3d77b9;
+}
+
+.page-num-f{
+    border-radius: 4px 0 0 4px;
+    margin-left: 4px;
+}
+.page-num-e{
+    border-radius:0 4px 4px 0;
+    margin-right: 4px;
+}
+.page-num-f.page-num-e{
+    border-radius:4px;
+    margin: 0 4px;
+}
+
+/*基础表格样式*/
+.treatment-list{
+    width:95%;
+    overflow: hidden;
+    margin:10px auto;
+    font-size: 14px;
+}
+.table-list .table-title{
+    height: 50px;
+    vertical-align: middle;
+    background: #f5f5f5;
+    border-top:1px solid #dfdfdf;
+    border-bottom:none !important;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 14px;
+    color:#383838;
+    font-weight: bold;
+    font-family: microsoft yahei, sans-serif;
+}
+.table-list tr{
+    /*border-bottom: 1px solid #ccc;*/
+    /*border-left:1px solid #ccc;*/
+}
+.table-list td{
+    height:48px;
+    vertical-align: middle;
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    text-indent: 20px;
+}
+/*验证*/
+input.red-ipt{
+    border: 1px solid #ffb2b2 !important; 
+}
+.red-ipt{
+    border: 1px solid #ffb2b2;
+}
+.record-pop {
+    display: none;
+    position: fixed;
+    top: 57px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    /*height: 30px;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    z-index: 9999;
+}
+.record-error{
+    background: #f68b8b;
+}
+.record-error-mark{
+    vertical-align: middle;     display: -moz-inline-stack;     display:inline-block;     zoom:1;     *display:inline;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/index-sprite1.png") no-repeat -80px -80px;
+}
+.record-success-mark{
+    vertical-align: middle;     display: -moz-inline-stack;     display:inline-block;     zoom:1;     *display:inline;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/error_success.png") no-repeat 0 0;
+}
+
+/* loading */
+.loading-pop{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    text-align: center;
+}
+.loading-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+}
+.loading-pop .loading-img{
+    position: absolute;
+    top:40%;
+    left:50%;
+    width:63px;
+    height:111px;
+}
+
